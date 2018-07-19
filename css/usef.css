@@ -136,6 +136,7 @@ a.social_icon.fa.fa-youtube{
  }
 .geopolitics{
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .geo_img_top{
     margin-bottom: 40px;
@@ -179,6 +180,17 @@ img.geo_img_2 {
 
     right: 10px;
 }
+/* same height for all column */
+.equal_col {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+  .equal_col > [class*='col-'] {
+       display: flex;
+       flex-direction: column;
+  }
 /* opinion block */
 
 .opinion {
@@ -198,6 +210,10 @@ img.geo_img_2 {
     right: 0;
     font-weight: bold;
     font-size: 37px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 146px;
 }
 .read_more{
     position: absolute;
@@ -207,6 +223,7 @@ img.geo_img_2 {
     height: 25px;
     line-height: 12px;
     color: white;
+    bottom: 0px;
 }
 .opinion_img {
     max-height: 200px;
