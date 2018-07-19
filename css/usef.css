@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* header */
+
+.ads {
+    margin-top: 40px;
+}
+
+.infor_arrow_down {
+    color: red;
+}
+
+.infor_arrow_up {
+    color: green;
+}
+
+.info_header {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+/* setting text in info_block in one line */
+
+.info_block {
+    padding-top: 10px;
+    border-right: 2px solid white;
+    box-sizing: unset;
+    width: 12%;
+}
+
+.navbar-nav>li {
+    padding-right: 36px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar-nav>li:last-child {
+    font-size: 14px;
+    padding-right: 0px;
+    font-weight: bold;
+}
+
+.bird {
+    height: 62px;
+    padding-left: 40px;
+}
+
+.main_title {
+    font-size: 30px;
+}
+
+.cloud {
+    height: 40px;
+}
+
+.main_weather {
+    margin-top: 5%;
+}
+
+.main_date {
+    padding-left: 56px;
+}
+
+.main_header {
+    margin-top: 50px;
+}
+.container.navbar_custom{
+    padding-left: 0px;
+}
+
+/* search form header */
+
+.search_form {
+    background-color: #06755bb8;
+    height: 46px;
+    padding-top: 6px;
+}
+
+.seach_icon {
+    background-color: white;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    padding-top: 4px;
+    color: green;
+    border-radius: 22%;
+}
+
+input#search {
+    height: 30px;
+    padding-top: 7px;
+    border-radius: 10px;
+    border: none;
+    background-color: #41b3a7;
+    padding-left: 14px;
+}
+
+a.social_icon {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 2.5em;
+}
+
+.search_left{
+    padding-left: 0px;
+}
+.social_right{
+    padding-right: 0px;
+}
+a.social_icon.fa.fa-youtube{
+    padding-right: 0px;
+}
+/* geopolitics block */ 
+.flex-row.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+ .flex-row.row:after, 
+ .flex-row.row:before {
+    display: flex;
+ }
+.geopolitics{
+    margin-top: 40px;
+}
+.geo_img_top{
+    margin-bottom: 40px;
+}
+.geo_img,
+.geo_img_2,
+.geo_img_3,
+.geo_img_4,
+.geo_img_5{
+    max-height: 100%;
+    max-width: 100%;
+}
+.geo_new_up{
+    padding-left: 0px;
+}
+hr.border_bot {
+    width: 73%;
+    border-top: 2px solid #80808087;
+}
+.geo_new_down{
+    padding-right: 0px;
+}
+.geo_new{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img.geo_img_2 {
+    height: 225px;
+    width: 100%;
+}
+.geo_text {
+    background-image: url("../img/img2.jpg");
+    height: 250px;
+    background-position: center;
+
+}
+.geo_content {
+    width: 50%;
+    background: lightblue;
+    height: 250px;
+
+    right: 10px;
+}
+/* opinion block */
+
+.opinion {
+    margin-top: 40px;
+}
+.opinion_block1{
+    position: relative;
+}
+.vertical_text {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    right: 0;
+    font-weight: bold;
+    font-size: 37px;
+}
+.read_more{
+    position: absolute;
+    background-color: black;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    line-height: 12px;
+    color: white;
+}
+.opinion_img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.opinion_img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* div for rectangle image become circle */
+
+.opinion_img_circle {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.opinion_img_circle img {
+    width: auto;
+    height: 100%;
+}
+
+/* energy block */
+.energy_img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
