@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     font-family: Georgia,"Times New Roman",Times,serif;
-}
+} */
 .row {
     margin-left: 0px;
     margin-right: 0px;
@@ -14,6 +14,7 @@ body{
 
 .ads {
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .infor_arrow_down {
@@ -32,7 +33,7 @@ body{
 
 /* setting text in info_block in one line */
 
-.info_block {
+/* .info_block {
     padding-top: 10px;
     border-right: 2px solid white;
     box-sizing: unset;
@@ -48,19 +49,16 @@ body{
     font-size: 14px;
     padding-right: 0px;
     font-weight: bold;
-}
+} */
 
-.bird {
-    height: 62px;
-    padding-left: 40px;
-}
 
-.main_title {
+ .main_title {
     font-size: 30px;
 }
 
 .cloud {
     height: 40px;
+    width: 100px;
 }
 
 .main_weather {
@@ -76,11 +74,14 @@ body{
 }
 .container.navbar_custom{
     padding-left: 0px;
-}
+} 
 
 /* search form header */
+.primary-menu>li>a.btn_home{
+    padding-left:0px;
+}
 
-.search_form {
+/* .search_form {
     background-color: #06755bb8;
     height: 46px;
     padding-top: 6px;
@@ -120,7 +121,9 @@ a.social_icon {
 }
 a.social_icon.fa.fa-youtube{
     padding-right: 0px;
-}
+} */
+
+
 /* geopolitics block */ 
 .flex-row.row {
     display: flex;
@@ -135,8 +138,7 @@ a.social_icon.fa.fa-youtube{
     display: flex;
  }
 .geopolitics{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .geo_img_top{
     margin-bottom: 40px;
@@ -167,18 +169,32 @@ img.geo_img_2 {
     height: 225px;
     width: 100%;
 }
-.geo_text {
-    background-image: url("../img/img2.jpg");
-    height: 250px;
-    background-position: center;
-
+/* hover content geo */
+.geo_content{
+    position: relative;
+    overflow: hidden;
 }
-.geo_content {
+.geo_context {
+    background-color:#337ab7b0;
     width: 50%;
-    background: lightblue;
-    height: 250px;
-
-    right: 10px;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: -999px;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    padding-right: 10px;
+}
+.geo_content:hover .geo_context{
+    left: 0px;
+}
+/* end hover content geo */
+.geo_content_title{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* same height for all column */
 .equal_col {
@@ -191,10 +207,14 @@ img.geo_img_2 {
        display: flex;
        flex-direction: column;
   }
+  /* market block */
+.vertical_text.ver_market_text{
+      top:86px;
+  }
 /* opinion block */
 
 .opinion {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .opinion_block1{
     position: relative;
@@ -224,15 +244,16 @@ img.geo_img_2 {
     line-height: 12px;
     color: white;
     bottom: 0px;
-}
-.opinion_img {
-    max-height: 200px;
-    max-width: 200px;
+    left:0px;
 }
 
+
 .opinion_img img {
-    height: 100%;
+    height: 212px;
     width: 100%;
+}
+.vertical_text.ver_opinion_text{
+    top:86px;
 }
 
 /* div for rectangle image become circle */
@@ -240,8 +261,8 @@ img.geo_img_2 {
 .opinion_img_circle {
     display: inline-block;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     overflow: hidden;
     border-radius: 50%;
     margin-top: 20px;
@@ -253,8 +274,43 @@ img.geo_img_2 {
 }
 
 /* energy block */
+.energy{
+    margin-top:80px;
+}
 .energy_img{
     max-width: 100%;
     max-height: 100%;
 }
+.energy_img {
+    margin-bottom: 40px;
+}
+.space{
+    padding-left:9px;
+}
+.vertical_text.ver_energy_text{
+    right:25px;
+    top: 174px;
+}
+.ener_title{
+    margin-top: 10px;
+}
+.energy_block2{
+    height: 320px;
+}
+/* technology */
+.technology {
+    margin-top: 80px;
+}
 
+/* footer */
+.extra-zone {
+    margin-top: 80px;
+}
+.footer .row-footer,
+.footer-widgets{
+    border-top: 3px dotted black;
+}
+.white-container{
+    padding-left:0px;
+    padding-right:0px;
+}

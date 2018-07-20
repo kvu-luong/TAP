@@ -1,0 +1,118 @@
+img{
+    max-width: 100%;
+    width : 100%;
+}
+/*Ads top*/
+.ads-top{
+    margin-bottom: 60px;
+}
+/*End ads top*/
+body{
+    background: none;
+}
+/*Custom tap date below logo*/
+.tap-date-header-2{
+    position: absolute;
+    left: 225px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+}
+/******************************/
+#header{
+    margin-top: 55px;
+}
+/*Search and social network*/
+.search-and-social
+{
+    background: #007677;
+
+    height: 52px;
+}
+.search-wrap{
+    position: relative;
+    padding-left: 0;
+}
+.search-and-social .search-wrap .search-icon{
+    border-radius: 15px;
+    border: 1px solid #fff;
+    font-size: 2em;
+    color: #007677;
+    background : #fff;
+    padding: 7px 9px 9px 12px;
+    margin-top: 4px;
+}
+.search-text-custom{
+    width: 198px;
+    height: 33px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-color: transparent !important;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 8px;
+    padding-left: 10px;
+    margin-left:-4px;
+    
+}
+.search-text-custom::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 15px;
+    font-style: italic;
+}
+/*Social media*/
+.social-list {
+    padding-top: 12px;
+}
+.social-list > li > a > span{
+    color: #fff;
+}
+/*Category list*/
+.category-list{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.category-list > ul > li{
+    font-size: 22px;
+    display: inline-block;
+}
+.category-list > ul > li > a{
+    text-decoration: none;
+}
+.category-list > ul > li > a:hover{
+    cursor: pointer;
+}
+.category-list > ul > li > a::after{
+    content: "|";
+    color: grey;
+    font-size: 23px;
+}
+.category-list > ul > li:last-child > a::after{
+    content: none;
+}
+.category-list > ul > li:first-child > a{
+    color: red;
+    font-weight: 600;
+}
+.category-list > ul > li:nth-child(2) > a{
+    color: pink;
+    font-weight: 600;
+}
+.category-list > ul > li:nth-child(3) > a{
+    color: orange;
+    font-weight: 600;
+}
+.category-list > ul > li:nth-child(4) > a{
+    color: crimson;
+    font-weight: 600;
+}
+/*****************************************************MAIN CONTENT*****************************************************/
+/*GLOBAL USED CLASSES*/
+.block-title{
+    font-size: 50px;
+    font-weight: bold;
+    transform: rotate(-90deg);
+}
+/*LATEST NEWS*/
