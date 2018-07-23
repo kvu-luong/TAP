@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    font-family: Georgia,"Times New Roman",Times,serif;
+} */
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* header */
+
+.ads {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.infor_arrow_down {
+    color: red;
+}
+
+.infor_arrow_up {
+    color: green;
+}
+
+.info_header {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+/* setting text in info_block in one line */
+
+/* .info_block {
+    padding-top: 10px;
+    border-right: 2px solid white;
+    box-sizing: unset;
+    width: 12%;
+}
+
+.navbar-nav>li {
+    padding-right: 36px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar-nav>li:last-child {
+    font-size: 14px;
+    padding-right: 0px;
+    font-weight: bold;
+} */
+
+.main_title {
+    font-size: 30px;
+}
+
+.cloud {
+    height: 40px;
+    width: 100px;
+}
+
+.main_weather {
+    margin-top: 5%;
+}
+
+.main_date {
+    padding-left: 56px;
+}
+
+.main_header {
+    margin-top: 50px;
+}
+
+.container.navbar_custom {
+    padding-left: 0px;
+}
+
+/* search form header */
+
+.primary-menu>li>a.btn_home {
+    padding-left: 0px;
+}
+
+/* .search_form {
+    background-color: #06755bb8;
+    height: 46px;
+    padding-top: 6px;
+}
+
+.seach_icon {
+    background-color: white;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    padding-top: 4px;
+    color: green;
+    border-radius: 22%;
+}
+
+input#search {
+    height: 30px;
+    padding-top: 7px;
+    border-radius: 10px;
+    border: none;
+    background-color: #41b3a7;
+    padding-left: 14px;
+}
+
+a.social_icon {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 2.5em;
+}
+
+.search_left{
+    padding-left: 0px;
+}
+.social_right{
+    padding-right: 0px;
+}
+a.social_icon.fa.fa-youtube{
+    padding-right: 0px;
+} */
+
+/* geopolitics block */
+
+.flex-row.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row.row>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row.row:after, .flex-row.row:before {
+    display: flex;
+}
+
+.geopolitics {
+    margin-bottom: 80px;
+}
+
+.geo_img_top {
+    margin-bottom: 40px;
+}
+
+.geo_img, .geo_img_2, .geo_img_3, .geo_img_4, .geo_img_5 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.geo_new_up {
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+hr.border_bot {
+    width: 77%;
+    border-top: 2px solid #80808087;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.geo_new_down {
+    padding-right: 0px;
+}
+
+.geo_new {
+    background-color: #80808070;
+}
+
+img.geo_img_2 {
+    height: 225px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* hover content geo */
+
+.geo_content {
+    position: relative;
+    overflow: hidden;
+}
+
+.geo_context {
+    background-color: #38897c;
+    width: 50%;
+    height: 225px;
+    position: absolute;
+    top: 0px;
+    left: -999px;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    padding-right: 10px;
+}
+
+.geo_content:hover .geo_context {
+    left: 0px;
+}
+
+.geo_block3_news_background {
+    background: #80808070;
+    padding: 25px 0px 20px 9px;
+}
+
+.geo_block3_news_background h3 {
+    color: #38897c;
+}
+
+.geo_block3_news_background p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.geo_red_text {
+    color: red;
+}
+
+.geo_block3_news_background_below {
+    padding: 25px 0px 20px 9px;
+}
+
+.green_text {
+    color: #38897c;
+}
+
+/* end hover content geo */
+
+.geo_content_title {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* same height for all column */
+
+.equal_col {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.equal_col>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* market block */
+
+.vertical_text.ver_market_text {
+    top: 86px;
+}
+
+.market_blook2 img {
+    height: 100%;
+}
+
+.market_blook2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.market-text {
+    position: absolute;
+    bottom: -9999px;
+    height: 200px;
+    background-color: #38897c;
+    width: 94%;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    padding: 20px;
+}
+
+.market_blook2:hover .market-text {
+    bottom: 0px;
+
+}
+.market-text h3{
+    font-size: 27px;
+}
+.market-text p{
+    font-style: italic;
+    padding-top: 12px;
+}
+
+.market_img_right{
+    padding-bottom: 12px;
+}
+.market_new_right{
+    background-color:#80808070;
+}
+.market_new_right p{
+    padding-bottom:28px;
+}
+.market_new_right h3 {
+    color: #38897c;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+.market_img_right img {
+    height: 186px;
+}
+.market_news_top h4 {
+    color: #38897c;
+    font-size: 17px;
+    font-weight: bold;
+}
+.market_news_top:first-child{
+    border-bottom: 2px solid gray;
+}
+
+/* energy block */
+
+.energy {
+    margin-top: 80px;
+}
+
+.energy_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.energy_img {
+    margin-bottom: 40px;
+}
+
+.space {
+    padding-left: 9px;
+}
+
+.vertical_text.ver_energy_text {
+    right: 25px;
+    top: 174px;
+}
+
+.ener_title {
+    margin-top: 10px;
+    color: #38897c;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.energy_new_right p{
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.energy_block2 {
+    height: 320px;
+}
+.gray_background{
+    background-color: #80808070;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+/* technology */
+
+.technology {
+    margin-top: 80px;
+}
+.tech,
+.tech1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tech1 h3{
+    color: #38897c;
+    padding-top: 20px;
+}
+.tech1 p{
+    padding-top: 49px;
+    font-style: italic;
+}
+.tech_new_right {
+    background-color: #80808070;
+    margin-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+.tech_new_right:last-child{
+    border-bottom:none;
+}
+.tech_new_right h4{
+    color: #38897c;
+}
+.tech_new_right p{
+    font-style: italic;
+}
+.tech_no_padding {
+    padding-left: 0px;
+}
+.tech_new_right h4 {
+    color: #38897c;
+    font-weight: bold;
+    font-size: 22px;
+}
+.tech_no_padding img {
+    height: 110px;
+}
+.border_bottom {
+    border-bottom: 2px solid gray;
+    padding-top: 9px;
+}
+.border_bottom:first-child{
+    padding-top: 0px;
+}
+.border_bottom:last-child{
+    border-bottom: none;
+}
+.technology_block2 img {
+    height: 250px;
+}
+/* opinion block */
+
+.opinion {
+    margin-top: 80px;
+}
+
+.opinion_block1 {
+    position: relative;
+}
+
+.vertical_text {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    right: 0;
+    font-weight: bold;
+    font-size: 37px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 146px;
+}
+
+.read_more {
+    position: absolute;
+    background-color: black;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    line-height: 12px;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+}
+
+.opinion_img img {
+    height: 292px;
+    width: 100%;
+}
+
+.vertical_text.ver_opinion_text {
+    top: 86px;
+}
+
+/* div for rectangle image become circle */
+
+.opinion_img_circle {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.opinion_img_circle img {
+    width: auto;
+    height: 100%;
+}
+.gray_background.opinion_bottom {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gray_background.opinion_bottom p {
+    font-style: italic;
+}
+p.opinion_title_below {
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+}
+.option_img img{
+    height: 130px;
+}
+.author_red{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+/* footer */
+
+.extra-zone {
+    margin-top: 80px;
+}
+
+.footer .row-footer, .footer-widgets {
+    border-top: 3px dotted black;
+}
+
+.white-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
