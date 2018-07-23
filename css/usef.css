@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 /* body{
     font-family: Georgia,"Times New Roman",Times,serif;
 } */
+
 .row {
     margin-left: 0px;
     margin-right: 0px;
@@ -51,8 +53,7 @@
     font-weight: bold;
 } */
 
-
- .main_title {
+.main_title {
     font-size: 30px;
 }
 
@@ -72,13 +73,15 @@
 .main_header {
     margin-top: 50px;
 }
-.container.navbar_custom{
+
+.container.navbar_custom {
     padding-left: 0px;
-} 
+}
 
 /* search form header */
-.primary-menu>li>a.btn_home{
-    padding-left:0px;
+
+.primary-menu>li>a.btn_home {
+    padding-left: 0px;
 }
 
 /* .search_form {
@@ -123,102 +126,311 @@ a.social_icon.fa.fa-youtube{
     padding-right: 0px;
 } */
 
+/* geopolitics block */
 
-/* geopolitics block */ 
 .flex-row.row {
     display: flex;
     flex-wrap: wrap;
-  }
-  .flex-row.row > [class*='col-'] {
+}
+
+.flex-row.row>[class*='col-'] {
     display: flex;
     flex-direction: column;
-  }
- .flex-row.row:after, 
- .flex-row.row:before {
+}
+
+.flex-row.row:after, .flex-row.row:before {
     display: flex;
- }
-.geopolitics{
+}
+
+.geopolitics {
     margin-bottom: 80px;
 }
-.geo_img_top{
+
+.geo_img_top {
     margin-bottom: 40px;
 }
-.geo_img,
-.geo_img_2,
-.geo_img_3,
-.geo_img_4,
-.geo_img_5{
+
+.geo_img, .geo_img_2, .geo_img_3, .geo_img_4, .geo_img_5 {
     max-height: 100%;
     max-width: 100%;
 }
-.geo_new_up{
+
+.geo_new_up {
     padding-left: 0px;
+    padding-top: 15px;
 }
+
 hr.border_bot {
-    width: 73%;
+    width: 77%;
     border-top: 2px solid #80808087;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.geo_new_down{
+
+.geo_new_down {
     padding-right: 0px;
 }
-.geo_new{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.geo_new {
+    background-color: #80808070;
 }
+
 img.geo_img_2 {
     height: 225px;
     width: 100%;
+    margin-bottom: 20px;
 }
+
 /* hover content geo */
-.geo_content{
+
+.geo_content {
     position: relative;
     overflow: hidden;
 }
+
 .geo_context {
-    background-color:#337ab7b0;
+    background-color: #38897c;
     width: 50%;
+    height: 225px;
     position: absolute;
-    bottom: 0px;
     top: 0px;
     left: -999px;
     transition: all 0.5s ease-in-out;
     color: white;
     padding-right: 10px;
 }
-.geo_content:hover .geo_context{
+
+.geo_content:hover .geo_context {
     left: 0px;
 }
+
+.geo_block3_news_background {
+    background: #80808070;
+    padding: 25px 0px 20px 9px;
+}
+
+.geo_block3_news_background h3 {
+    color: #38897c;
+}
+
+.geo_block3_news_background p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.geo_red_text {
+    color: red;
+}
+
+.geo_block3_news_background_below {
+    padding: 25px 0px 20px 9px;
+}
+
+.green_text {
+    color: #38897c;
+}
+
 /* end hover content geo */
-.geo_content_title{
+
+.geo_content_title {
     text-transform: uppercase;
     font-size: 30px;
     text-align: right;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 /* same height for all column */
+
 .equal_col {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display:         flex;
-  }
-  .equal_col > [class*='col-'] {
-       display: flex;
-       flex-direction: column;
-  }
-  /* market block */
-.vertical_text.ver_market_text{
-      top:86px;
-  }
+    display: flex;
+}
+
+.equal_col>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* market block */
+
+.vertical_text.ver_market_text {
+    top: 86px;
+}
+
+.market_blook2 img {
+    height: 100%;
+}
+
+.market_blook2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.market-text {
+    position: absolute;
+    bottom: -9999px;
+    height: 200px;
+    background-color: #38897c;
+    width: 94%;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    padding: 20px;
+}
+
+.market_blook2:hover .market-text {
+    bottom: 0px;
+
+}
+.market-text h3{
+    font-size: 27px;
+}
+.market-text p{
+    font-style: italic;
+    padding-top: 12px;
+}
+
+.market_img_right{
+    padding-bottom: 12px;
+}
+.market_new_right{
+    background-color:#80808070;
+}
+.market_new_right p{
+    padding-bottom:28px;
+}
+.market_new_right h3 {
+    color: #38897c;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+.market_img_right img {
+    height: 186px;
+}
+.market_news_top h4 {
+    color: #38897c;
+    font-size: 17px;
+    font-weight: bold;
+}
+.market_news_top:first-child{
+    border-bottom: 2px solid gray;
+}
+
+/* energy block */
+
+.energy {
+    margin-top: 80px;
+}
+
+.energy_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.energy_img {
+    margin-bottom: 40px;
+}
+
+.space {
+    padding-left: 9px;
+}
+
+.vertical_text.ver_energy_text {
+    right: 25px;
+    top: 174px;
+}
+
+.ener_title {
+    margin-top: 10px;
+    color: #38897c;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.energy_new_right p{
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.energy_block2 {
+    height: 320px;
+}
+.gray_background{
+    background-color: #80808070;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+/* technology */
+
+.technology {
+    margin-top: 80px;
+}
+.tech,
+.tech1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tech1 h3{
+    color: #38897c;
+    padding-top: 20px;
+}
+.tech1 p{
+    padding-top: 49px;
+    font-style: italic;
+}
+.tech_new_right {
+    background-color: #80808070;
+    margin-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+.tech_new_right:last-child{
+    border-bottom:none;
+}
+.tech_new_right h4{
+    color: #38897c;
+}
+.tech_new_right p{
+    font-style: italic;
+}
+.tech_no_padding {
+    padding-left: 0px;
+}
+.tech_new_right h4 {
+    color: #38897c;
+    font-weight: bold;
+    font-size: 22px;
+}
+.tech_no_padding img {
+    height: 110px;
+}
+.border_bottom {
+    border-bottom: 2px solid gray;
+    padding-top: 9px;
+}
+.border_bottom:first-child{
+    padding-top: 0px;
+}
+.border_bottom:last-child{
+    border-bottom: none;
+}
+.technology_block2 img {
+    height: 250px;
+}
 /* opinion block */
 
 .opinion {
     margin-top: 80px;
 }
-.opinion_block1{
+
+.opinion_block1 {
     position: relative;
 }
+
 .vertical_text {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -235,7 +447,8 @@ img.geo_img_2 {
     left: 0px;
     top: 146px;
 }
-.read_more{
+
+.read_more {
     position: absolute;
     background-color: black;
     border: none;
@@ -244,16 +457,16 @@ img.geo_img_2 {
     line-height: 12px;
     color: white;
     bottom: 0px;
-    left:0px;
+    left: 0px;
 }
-
 
 .opinion_img img {
-    height: 212px;
+    height: 292px;
     width: 100%;
 }
-.vertical_text.ver_opinion_text{
-    top:86px;
+
+.vertical_text.ver_opinion_text {
+    top: 86px;
 }
 
 /* div for rectangle image become circle */
@@ -272,45 +485,37 @@ img.geo_img_2 {
     width: auto;
     height: 100%;
 }
-
-/* energy block */
-.energy{
-    margin-top:80px;
+.gray_background.opinion_bottom {
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.energy_img{
-    max-width: 100%;
-    max-height: 100%;
+.gray_background.opinion_bottom p {
+    font-style: italic;
 }
-.energy_img {
-    margin-bottom: 40px;
+p.opinion_title_below {
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
 }
-.space{
-    padding-left:9px;
+.option_img img{
+    height: 130px;
 }
-.vertical_text.ver_energy_text{
-    right:25px;
-    top: 174px;
+.author_red{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
 }
-.ener_title{
-    margin-top: 10px;
-}
-.energy_block2{
-    height: 320px;
-}
-/* technology */
-.technology {
-    margin-top: 80px;
-}
-
 /* footer */
+
 .extra-zone {
     margin-top: 80px;
 }
-.footer .row-footer,
-.footer-widgets{
+
+.footer .row-footer, .footer-widgets {
     border-top: 3px dotted black;
 }
-.white-container{
-    padding-left:0px;
-    padding-right:0px;
+
+.white-container {
+    padding-left: 0px;
+    padding-right: 0px;
 }
