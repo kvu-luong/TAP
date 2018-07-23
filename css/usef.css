@@ -3,15 +3,24 @@
     padding: 0;
 }
 
-/* body{
-    font-family: Georgia,"Times New Roman",Times,serif;
-} */
+body{
+    background: #F2F1E8;
+}
 
 .row {
     margin-left: 0px;
     margin-right: 0px;
 }
 
+.white_container {
+    width: 90%;
+    margin-left: 6%;
+    background: #fff;
+}
+.black_color{
+    background-color: #00000094;
+    z-index:1;
+}
 /* header */
 
 .ads {
