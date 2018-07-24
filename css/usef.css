@@ -135,6 +135,133 @@ a.social_icon.fa.fa-youtube{
     padding-right: 0px;
 } */
 
+/* lastest block */
+.spot_new_right {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.spot_content_new {
+    position: absolute;
+    background-color: #0076778f;
+    bottom: -999px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+    animation: all 0.5s ease-in-out;
+}
+.spot_new_right:hover .spot_content_new{
+    bottom: 0px;
+}
+.spot_content_new p {
+    padding-left: 140px;
+    font-size: 16px;
+}
+p.date_style{
+    font-style: italic;
+}
+.spot_news_below {
+    padding-left: 0px;
+}
+.spot_news_below_right {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.spot_image {
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+.spot_context_below h4 {
+    color: #007677;
+    font-weight: bold;
+    font-size: 16px;
+}
+h4.red_color {
+    color: red !important;
+}
+.spot_context_below p {
+    font-style: italic;
+}
+.spot_context_below:last-child{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+.spot_context_below {
+    border-bottom: 2px solid gray;
+    padding-bottom: 21px;
+}
+.spot_new_right h4 {
+    font-weight: bold;
+    font-size: 26px;
+}
+.upper_spot_new h4 {
+    color: #007677;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 10px;
+
+}
+.upper_spot_new p {
+    font-style: italic;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 26px;
+}
+.spot_text_info{
+    border-bottom: 2px solid gray;
+    border-left-width: 10px;  
+}
+.spot_text_info h5 {
+    color: #007677;
+    font-size: 21px;
+    font-weight: bold;
+    width: 77%;
+}
+.spot_text_info p{
+    font-style: italic;
+    font-size: 15px;
+
+}
+.no_padding_left{
+    padding-left: 0px;
+}
+.spotlight {
+    background-color: #e325469e;
+    color: white;
+    text-align: right;
+    
+}
+.spotlight_below{
+    margin-bottom: 20px;
+}
+.spotlight h4 {
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+.spotlight_img img {
+    height: 100px;
+}
+.spotlight_img {
+    padding-left: 0px;
+    position: relative;
+}
+.spotlight_img h4 {
+    text-align: right;
+    margin: 0px;
+    background-color: #ee788c;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -36px;
+    height: 35px;
+    padding-right: 10px;
+    line-height: 33px;
+    width: 48%;
+    position: absolute;
+    right: 0px;
+    margin-right: 15px;
+}
 /* geopolitics block */
 
 .flex-row.row {
