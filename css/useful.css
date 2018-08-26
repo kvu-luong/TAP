@@ -1,0 +1,1624 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background: #F2F1E8;
+}
+
+.row-custom {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.white_container {
+    width: 90%;
+    margin-left: 5%;
+    background: #fff;
+}
+
+.black_color {
+    background-color: #343434;
+    z-index: 1;
+}
+
+.container-fluid.white_background {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    padding-top: 40px;
+}
+
+/* header */
+
+.ads {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.infor_arrow_down {
+    color: red;
+}
+
+.infor_arrow_up {
+    color: green;
+}
+
+.info_header {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+/*  mt-scroll */
+#wrapper-ticker{
+    padding:0px;
+     margin:0px; 
+     border: 0px solid black;
+}
+.mt-news{
+  width: 100%;  
+}
+.mt-news ul{
+    margin-left: 0px;
+}
+
+/* setting text in info_block in one line */
+
+/* .info_block {
+    padding-top: 10px;
+    border-right: 2px solid white;
+    box-sizing: unset;
+    width: 12%;
+}
+
+.navbar-nav>li {
+    padding-right: 36px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar-nav>li:last-child {
+    font-size: 14px;
+    padding-right: 0px;
+    font-weight: bold;
+} */
+
+.main_title {
+    font-size: 30px;
+}
+
+.cloud {
+    height: 40px;
+    width: 100px;
+}
+
+.main_weather {
+    margin-top: 5%;
+}
+
+.main_date {
+    padding-left: 56px;
+}
+
+.main_header {
+    margin-top: 50px;
+}
+
+.container.navbar_custom {
+    padding-left: 0px;
+}
+
+/* search form header */
+
+.primary-menu>li>a.btn_home {
+    padding-left: 0px;
+}
+
+/* .search_form {
+    background-color: #06755bb8;
+    height: 46px;
+    padding-top: 6px;
+}
+
+.seach_icon {
+    background-color: white;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    padding-top: 4px;
+    color: green;
+    border-radius: 22%;
+}
+
+input#search {
+    height: 30px;
+    padding-top: 7px;
+    border-radius: 10px;
+    border: none;
+    background-color: #41b3a7;
+    padding-left: 14px;
+}
+
+a.social_icon {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 2.5em;
+}
+
+.search_left{
+    padding-left: 0px;
+}
+.social_right{
+    padding-right: 0px;
+}
+a.social_icon.fa.fa-youtube{
+    padding-right: 0px;
+} */
+
+/* lastest block */
+
+.spot_block1 h2 {
+    top: 67px !important;
+}
+
+.spot_new_right {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.spot_content_new {
+    position: absolute;
+    background-color: #0076778f;
+    bottom: -999px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+    animation: all 0.5s ease-in-out;
+}
+
+.spot_new_right:hover .spot_content_new {
+    bottom: 0px;
+}
+
+.spot_content_new p {
+    padding-left: 140px;
+    font-size: 16px;
+}
+
+p.date_style {
+    font-style: italic;
+}
+
+.spot_news_below {
+    padding-left: 0px;
+}
+
+.spot_news_below_right {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.spot_image {
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+
+.spot_context_below h4 {
+    color: #007677;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h4.red_color {
+    color: red !important;
+}
+
+h5.red_color {
+    color: red !important;
+}
+
+.spot_context_below p {
+    font-style: italic;
+}
+
+.spot_context_below:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.spot_context_below {
+    border-bottom: 2px solid gray;
+    padding-bottom: 21px;
+}
+
+.spot_new_right h4 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.upper_spot_new {
+    background-color: #f2f1e8;
+}
+
+.upper_spot_new h4 {
+    color: #007677;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.upper_spot_new p {
+    font-style: italic;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 26px;
+}
+
+.spot_text_info {
+    /* border-bottom: 2px solid gray; */
+    border-left-width: 10px;
+}
+
+.spot_text_info.above {
+    border-bottom: 2px solid gray;
+}
+
+.spot_text_info h5 {
+    color: #007677;
+    font-size: 21px;
+    font-weight: bold;
+    width: 77%;
+}
+
+.spot_text_info p {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.no_padding_left {
+    padding-left: 0px;
+}
+
+.spotlight {
+    background-color: #EF5362;
+    color: white;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.spotlight_below {
+    padding-bottom: 20px;
+}
+
+.spotlight h4 {
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 16px;
+    color: white;
+}
+
+.spotlight a {
+    text-decoration: none;
+}
+
+.spotlight_img img {
+    height: 100px;
+}
+
+.spotlight_img {
+    padding-left: 0px;
+    position: relative;
+}
+
+.spotlight_img h4 {
+    text-align: right;
+    margin: 0px;
+    background-color: #EF5362;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -35px;
+    height: 35px;
+    padding-right: 10px;
+    line-height: 33px;
+    width: 48%;
+    position: absolute;
+    right: 0px;
+    margin-right: 15px;
+}
+
+/* geopolitics block */
+
+.geo_size {
+    background-image: url("../img/black.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    padding-top: 16px;
+}
+
+/* end border setting */
+
+.flex-row.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row.row>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row.row:after, .flex-row.row:before {
+    display: flex;
+}
+
+.geopolitics {
+    margin-bottom: 80px;
+}
+
+.geo_img_top {
+    margin-bottom: 40px;
+}
+
+.geo_img, .geo_img_2, .geo_img_3, .geo_img_4, .geo_img_5 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.geo_new_up {
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+hr.border_bot {
+    width: 77%;
+    border-top: 2px solid #80808087;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.geo_new_down {
+    padding-right: 0px;
+}
+
+.geo_new {
+    background-color: #80808070;
+}
+
+.geo_text {
+    margin-bottom: 20px;
+}
+
+img.geo_img_2 {
+    height: 100%;
+    width: 370px;
+}
+
+/* hover content geo */
+
+.geo_content {
+    position: relative;
+    overflow: hidden;
+}
+
+.geo_context {
+    background-color: #38897c;
+    width: 50%;
+    height: 245px;
+    position: absolute;
+    top: 0px;
+    left: -999px;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    padding-right: 10px;
+}
+
+.geo_content:hover .geo_context {
+    left: 0px;
+}
+
+.geo_block3_news_background {
+    background: #80808070;
+    padding: 25px 0px 20px 9px;
+}
+
+.geo_block3_news_background h3 {
+    color: #38897c;
+}
+
+.geo_block3_news_background p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.geo_red_text {
+    color: red;
+}
+
+.geo_block3_news_background_below {
+    padding: 25px 0px 20px 9px;
+}
+
+.green_text {
+    color: #38897c;
+}
+
+/* end hover content geo */
+
+.geo_content_title {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* same height for all column */
+
+.equal_col {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.equal_col>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* market block */
+
+/* object animation */
+
+.market_size {
+    padding-top: 20px;
+}
+
+/* end object animation */
+
+.vertical_text.ver_market_text {
+    top: 86px;
+}
+
+.market_blook2 img {
+    height: 100%;
+}
+
+.market_blook2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.market-text {
+    position: absolute;
+    bottom: -9999px;
+    height: 200px;
+    background-color: #38897c;
+    width: 94%;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    padding: 20px;
+}
+
+.market_blook2:hover .market-text {
+    bottom: 0px;
+}
+
+.market-text h3 {
+    font-size: 27px;
+    color: white;
+}
+
+.market-text p {
+    font-style: italic;
+    padding-top: 12px;
+}
+
+.market_img_right {
+    padding-bottom: 12px;
+}
+
+.market_new_right {
+    background-color: #80808070;
+}
+
+.market_new_right p {
+    padding-bottom: 28px;
+}
+
+.market_new_right h3 {
+    color: #38897c;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+
+.market_img_right img {
+    height: 182px;
+}
+
+.market_news_top h4 {
+    color: #38897c;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.market_news_top:first-child {
+    border-bottom: 2px solid gray;
+}
+
+/* energy block */
+
+.energy {
+    margin-top: 80px;
+}
+
+.energy_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.energy_img {
+    margin-bottom: 40px;
+}
+
+.space {
+    padding-left: 9px;
+}
+
+.vertical_text.ver_energy_text {
+    right: 25px;
+    top: 174px;
+}
+
+.ener_title {
+    margin-top: 10px;
+    color: #38897c;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.energy_new_right p {
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.energy_block2 {
+    height: 320px;
+}
+
+.gray_background {
+    background-color: #80808070;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* technology */
+
+.technology {
+    margin-top: 80px;
+}
+
+.tech, .tech1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tech1 h3 {
+    color: #38897c;
+    padding-top: 20px;
+}
+
+.tech1 p {
+    padding-top: 32px;
+    font-style: italic;
+}
+
+.tech_new_right {
+    background-color: #80808070;
+    margin-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.tech_new_right:last-child {
+    border-bottom: none;
+}
+
+.tech_new_right h4 {
+    color: #38897c;
+}
+
+.tech_new_right p {
+    font-style: italic;
+}
+
+.tech_no_padding {
+    padding-left: 0px;
+}
+
+.tech_new_right h4 {
+    color: #38897c;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.tech_no_padding img {
+    height: 110px;
+}
+
+.border_bottom {
+    border-bottom: 2px solid gray;
+    padding-top: 9px;
+}
+
+.border_bottom:first-child {
+    padding-top: 0px;
+}
+
+.border_bottom:last-child {
+    border-bottom: none;
+}
+
+.technology_block2 img {
+    height: 250px;
+}
+
+/* opinion block */
+
+.opinion {
+    margin-top: 80px;
+}
+
+.opinion_block1 {
+    position: relative;
+}
+
+.vertical_text {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    right: 0;
+    font-weight: bold;
+    font-size: 37px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 146px;
+}
+
+.read_more {
+    position: absolute;
+    background-color: black;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    line-height: 12px;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+}
+
+.opinion_img img {
+    height: 292px;
+    width: 100%;
+}
+
+.vertical_text.ver_opinion_text {
+    top: 86px;
+}
+
+/* div for rectangle image become circle */
+
+.opinion_img_circle {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.opinion_img_circle img {
+    width: auto;
+    height: 100%;
+}
+
+.gray_background.opinion_bottom {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gray_background.opinion_bottom p {
+    font-style: italic;
+}
+
+p.opinion_title_below {
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.option_img img {
+    height: 130px;
+}
+
+.author_red {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* belt & road */
+
+img.ads_belt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.belt_block2 img {
+    height: 500px;
+}
+
+.belt_block2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.belt_content_new {
+    position: absolute;
+    bottom: 0px;
+    background-color: transparent;
+    color: black;
+}
+
+.belt_content_new h4 {
+    font-size: 45px;
+    padding-left: 10px;
+    font-family: 'HelveticaNeueLTProThEx', sans-serif;
+}
+
+.belt_block1 {
+    background-image: url(../img/belt_and_road.svg);
+    margin-bottom: 190px;
+    background-position-x: center;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.belt_block1 h2 {
+    top: 174px !important;
+}
+
+.belt_content_new p {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+nobr.belt_red_text {
+    color: white;
+    padding: 10px;
+}
+
+/* consumer */
+
+.comsumer {
+    padding-top: 46px;
+}
+
+.consumer_news h4 {
+    color: #38897c;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.consumer_news p {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.consumer_news img {
+    height: 150px;
+}
+
+.ads_consumer {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.consumer_block2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* fan360 */
+
+.fan_info_left {
+    padding-bottom: 10px;
+    border-bottom: 2px solid red;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.fan_info_left:first-child {
+    padding-top: 0px;
+}
+
+.fan_info_left:last-child {
+    border-bottom: none;
+}
+
+.fan_news_left h4 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.fan_info_below h4 {
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 38px;
+}
+
+.fan_info_below p {
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 10px;
+    line-height: 19px;
+    padding-bottom: 10px;
+}
+
+.fan_info_below {
+    background-color: red;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+}
+
+.fan_title {
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.fan_title>h1 {
+    font-family: 'MontserratBold', sans-serif;
+}
+
+span.red_cl {
+    color: red;
+    font-weight: normal;
+    font-family: 'MontserratUltraLight', sans-serif;
+}
+
+/* footer */
+
+.extra-zone {
+    margin-top: 0;
+}
+
+.footer .row-footer, .footer-widgets {
+    border-top: 3px dotted black;
+}
+
+.white-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* object animation */
+
+.yellow, .orange {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+    margin-top: -30px;
+    margin-left: 18px;
+}
+
+.usef_object {
+    position: relative;
+}
+
+.box_animation {
+    position: absolute;
+    height: 30px;
+    width: 48px;
+    top: 24.6%;
+    left: 15%;
+    transition: all 0.5s ease-in-out;
+}
+
+/*
+animation: circle_animate 20s linear infinite; 
+@keyframes circle_animate{
+	 0%  { left: 0px; top: -12px;}
+    50% { left: 475px; top: 588px;} 
+     100%  { left: 0px; top: -12px; }  
+} */
+
+.rotateBox {
+    transform: rotate(90deg);
+}
+
+.rotateBox_Origin {
+    transform: rotate(0deg);
+}
+
+/* reponsive */
+
+@media only screen and (max-width: 1280px) {
+    .white_container {
+        width: 95%;
+        margin-left: 3%;
+        background: #fff;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .box_animation {
+        left: 78px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .white_container {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .read_more {
+        left: -30px;
+    }
+    .opinion, .unicorns, .fan360, .comsumer, .beltRoad, .wrap-border, .technology, .energy, .markets, .geopolitics {
+        background-image: none;
+    }
+    .box_animation {
+        display: none;
+    }
+    .vertical_text.ver_consumer_text {
+        top: 123px;
+    }
+    .vertical_text.ver_opinion_text {
+        top: 96px;
+    }
+    .btn.btn-default.read_more.consumer_read {
+        left: -10px;
+    }
+    .btn.btn-default.read_more.fan_read {
+        left: -10px;
+    }
+    .latest-spotlight {
+        bottom: -87px;
+    }
+    .slick-slider {
+        padding-top: 77px;
+    }
+    .spot_news_below_right {
+        padding-top: 68px;
+    }
+    .custom-video-button {
+        height: 53%;
+    }
+    .bottom_video_block_title>a>h3 {
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .prev, .next {
+        top: 70%;
+    }
+    .unicorn_read_more {
+        top: 295px;
+        left: -14px;
+    }
+    img.geo_img_3 {
+        height: 139px;
+    }
+    .unicorn_top_img {
+        height: 341.606px;
+        margin-bottom: 14px;
+    }
+    .unicorn-right-side-block-2 {
+        padding-top: 0px !important;
+    }
+    .fan_info_below h4 {
+        color: white;
+        padding-top: 48px;
+    }
+    .read_more.spotlight_read_more_fix_bottom {
+        top: 655px;
+    }
+    .ener_title {
+        font-size: 19px;
+    }
+    .energy {
+        padding-bottom: 0px;
+    }
+    .consumer_news h4 {
+        font-size: 20px;
+    }
+    .gray_background.opinion_bottom p {
+        font-size: 17px;
+    }
+    .option_img img {
+        height: 149px;
+    }
+    .opinion_text_font {
+        font-size: 14px;
+    }
+    .longer-wrap-2 {
+        padding-bottom: 86px;
+    }
+    .longer-wrap {
+        padding-bottom: 134px;
+    }
+    .copyright .copyright-statement {
+        padding-right: 2px;
+    }
+    .footer-nav li a {
+        padding-left: 3px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* .slick-slider{
+        width: 100%;
+        height: 100%;
+    } */
+    .grey-container {
+        width: 100%;
+        margin-left: 0px;
+    }
+    p.content-limitation.last_limit_2 {
+        height: 61px;
+    }
+    p.content-limitation.geo_limit {
+        height: 35px;
+    }
+    p.content-limitation.consumer_limit {
+        height: 62px;
+    }
+    p.content-limitation.opi_limit_2 {
+        height: 23px;
+    }
+    .custom-video-button {
+        height: 100px;
+        width: 100px;
+        margin-left: -40px;
+    }
+    .main_weather {
+        margin-bottom: 7%;
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .social-footer {
+        margin-top: -64px;
+    }
+    .event_title {
+        width: 36px;
+        height: 159px;
+    }
+    .spotlight-section_block1 {
+        height: 220px;
+    }
+    .read_more.spotlight_read_more_fix_bottom {
+        top: 1578px;
+    }
+    .btn.btn-default.read_more.option_read {
+        top: 1683px;
+    }
+    .vertical_text.ver_opinion_text {
+        top: 106px;
+    }
+    .consumer_news img {
+        height: 100%;
+    }
+    p.content-limitation {
+        font-size: 17px;
+        font-style: normal;
+        font-family: cursive;
+    }
+    .btn.btn-default.read_more.consumer_read {
+        left: 5px;
+        top: 2126px;
+    }
+    .btn.btn-default.read_more.fan_read {
+        left: -10px;
+        top: 2884px;
+    }
+    .no_padding_left {
+        padding-left: 14px;
+    }
+    .unicorn_read_more {
+        top: 751px;
+        left: -18px;
+        right: -22px;
+    }
+    .latest-spotlight {
+        bottom: -99px;
+        right: 0px;
+    }
+    .spotlight_img {
+        padding-right: 0px;
+    }
+    .spot_image {
+        display: none;
+    }
+    img.geo_img_2 {
+        width: 100%;
+    }
+    .read_more.geo_read {
+        top: 2136px;
+    }
+    img.geo_img_3 {
+        height: 100%;
+    }
+    .geo_new_down {
+        padding-left: 0px;
+    }
+    hr.border_bot {
+        width: 100%;
+    }
+    .geo_block3 {
+        padding-top: 20px;
+    }
+    .sm_full_image {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .market_blook2 {
+        margin-bottom: 10px;
+    }
+    .read_more.market_read {
+        top: 1226px;
+        left: -3px;
+    }
+    .unicorn-heading {
+        height: 283px;
+    }
+    .geo_block3 {
+        margin-bottom: 10px;
+    }
+    .unicorn_top_img {
+        margin-bottom: 0px;
+    }
+    .unicorn_context {
+        height: 100%;
+    }
+    .unicorn_news_down_left {
+        margin-bottom: 0px;
+    }
+    .horizontal-line {
+        border-bottom: 3px solid gray;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .horizontal-line-2 {
+        width: 100%;
+        border-bottom: 2px solid black;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .unicorn-right-side-block-2 {
+        margin-top: 20px;
+    }
+    .unicorn_read_more {
+        top: 1275px;
+    }
+    .belt_block1 {
+        height: 294px;
+        margin-top: 70px;
+        width: 79px;
+    }
+    nobr.belt_red_text {
+        padding: 0px;
+    }
+    .technology {
+        margin-top: 1772px !important;
+    }
+    .tech_no_padding {
+        padding-right: 0px;
+    }
+    .border_bottom:first-child {
+        padding-top: 22px;
+    }
+    .read_more.tech_read {
+        top: 1338px;
+        left: -3px;
+    }
+    .vertical_text.ver_tech {
+        top: 172px;
+    }
+    .energy {
+        padding-bottom: 74px;
+    }
+    .read_more.ener_read {
+        top: 2158px;
+        left: -3px;
+    }
+    .gray_background {
+        margin-bottom: 10px;
+    }
+    .event-block {
+        font-size: 21px;
+    }
+    .video_header_wrap {
+        height: 188px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    /* it will effect screen that less than 414px */
+    .red-wrapping {
+        padding-bottom: 10px;
+    }
+    .search-text-custom {
+        margin-left: -1px;
+    }
+    ul.inline.horizontal.pull-right.social-list {
+        display: none;
+    }
+    .white_container {
+        padding-bottom: 10px;
+    }
+    .fan_title {
+        padding-top: 28px;
+    }
+    .ads_consumer {
+        margin-top: 57px;
+    }
+    .read_more.market_read {
+        top: 1166px;
+    }
+    p.content-limitation.geo_limit {
+        height: 32px;
+    }
+    .category-list>ul>li {
+        font-size: 14px;
+    }
+    .spot_block2 {
+        margin-top: 50px;
+    }
+    .spot_block1 h2 {
+        text-align: center;
+    }
+    .vertical_text {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        margin-top: -74px;
+    }
+    .vertical_text.ver_geo {
+        margin-top: -149px;
+        text-align: center;
+    }
+    .geo_block2 {
+        margin-top: 63px;
+    }
+    .vertical_text.ver_market_text {
+        top: -11px;
+        text-align: center;
+    }
+    .read_more.geo_read {
+        top: 1590px;
+        left: -3px;
+    }
+    .read_more.market_read {
+        left: -3px;
+    }
+    .energy_block2 {
+        margin-top: 100px;
+    }
+    .vertical_text.ver_energy_text {
+        top: 60px;
+        text-align: center;
+    }
+    .read_more.ener_read {
+        top: 1648px;
+        left: -3px;
+    }
+    .technology {
+        margin-top: 1219px !important;
+    }
+    .vertical_text.ver_tech {
+        top: 0px;
+        text-align: center;
+    }
+    .read_more.tech_read {
+        top: 1499px;
+        left: -3px;
+    }
+    .video_header_wrap {
+        height: 53px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .vertical_text.video_header {
+        margin-top: -110px;
+    }
+    .bottom_video_block_img {
+        width: 80%;
+    }
+    img.a-left.control-c.prev.slick-prev.custom-video-button.slick-arrow {
+        /* left: -41px; */
+        padding: 0px;
+        width: 34px;
+        margin-left: 0px;
+    }
+    img.a-right.control-c.next.slick-next.custom-video-button.slick-arrow {
+        /* right: -44px; */
+        padding: 0px;
+        width: 34px;
+    }
+    .slick-slider {
+        padding-top: 78px;
+    }
+    nobr.belt_red_text {
+        color: black;
+    }
+    .belt_block1 {
+        background: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .vertical_text.ver_opinion_text {
+        top: 26px !important;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .read_more.belt_and_road_read_more {
+        top: 504px;
+        left: 4px;
+    }
+    .col-md-3.energy_new_right {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .consumer_block2 {
+        padding-top: 59px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .vertical_text.ver_consumer_text {
+        text-align: center;
+        top: 62px;
+    }
+    .fan_title>h1 {
+        font-size: 17px;
+    }
+    .ver_fan_text img {
+        transform: rotate(90deg);
+        width: 100px;
+        height: 190px;
+    }
+    .ver_fan_text {
+        text-align: center;
+        height: 137px;
+        margin-top: -78px;
+    }
+    .btn.btn-default.read_more.fan_read {
+        left: 17px;
+        top: 2127px;
+    }
+    .belt_content_new {
+        height: 268px;
+        ;
+    }
+    .btn.btn-default.read_more.consumer_read {
+        top: 1592px;
+    }
+    p.content-limitation.fan_limit {
+        height: 149px;
+        margin-bottom: 50px;
+    }
+    p.content-limitation.uni_limit {
+        height: 51px;
+    }
+    .unicorn-heading {
+        height: 69px;
+        width: 100%;
+        text-align: center;
+    }
+    .unicorn-heading>h2 {
+        font-size: 42px;
+        position: absolute;
+        top: 100%;
+        padding-top: 14px;
+    }
+    .uni_block {
+        padding-top: 62px;
+    }
+    .event_title {
+        width: 100%;
+        height: 56px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .event_title>h2 {
+        top: 82px !important;
+    }
+    .opinion_block2 {
+        padding-top: 106px;
+    }
+    .unicorn_read_more {
+        top: 1112px;
+        width: 104px;
+        height: 27px;
+        line-height: 23px;
+        left: 20px;
+    }
+    .btn.btn-default.read_more.option_read {
+        top: 1928px;
+        left: 12px;
+    }
+    .spotlight-section_block1 {
+        margin-bottom: 0px;
+        height: 62px;
+        width: 100%;
+        text-align: center;
+    }
+    h2.vertical_text.spotlight_ver_text {
+        top: 75px;
+    }
+    .read_more.spotlight_read_more_fix_bottom {
+        top: 1808px;
+        left: -11px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .search-text-custom {
+        margin-left: 42px;
+    }
+    .read_more.geo_read {
+        top: 1484px;
+    }
+    .read_more.ener_read {
+        top: 1533px;
+        left: 12px;
+    }
+    .technology {
+        margin-top: 1111px !important;
+    }
+    .btn.btn-default.read_more.fan_read {
+        top: 1995px;
+    }
+    .fan_title>h1 {
+        font-size: 15px;
+        padding-top: 19px;
+    }
+    .read_more.spotlight_read_more_fix_bottom {
+        top: 1831px;
+    }
+    .unicorn_read_more {
+        top: 1042px;
+    }
+    .fan_info_below p {
+        padding-left: 5px;
+    }
+    .btn.btn-default.read_more.consumer_read {
+        top: 1547px;
+    }
+    .ads_consumer {
+        margin-top: 41px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .grey-container {
+        padding-top: 78px;
+    }
+    .read_more.spotlight_read_more_fix_bottom {
+        top: 1858px;
+    }
+    .vertical_text.ver_geo {
+        margin-top: 0px;
+    }
+    p.content-limitation.geo_limit {
+        height: 33px;
+    }
+    .read_more.market_read {
+        top: 1173px;
+    }
+    .energy_news {
+        padding-top: 54px;
+    }
+    .market_limit {
+        height: 56px;
+    }
+    .read_more.ener_read {
+        top: 1516px;
+    }
+    .energy_block2 {
+        margin-top: 32px;
+    }
+    .technology_block2 {
+        padding-top: 25px;
+    }
+    .read_more.tech_read {
+        top: 1620px;
+        left: -10px;
+    }
+    .vertical_text.video_header {
+        margin-top: 10px;
+    }
+    .read_more.belt_and_road_read_more {
+        top: 459px;
+    }
+    .btn.btn-default.read_more.consumer_read {
+        top: 1533px;
+    }
+    .unicorn-heading>h2 {
+        padding-top: 86px;
+    }
+    .fan_title>h1 {
+        font-size: 14px;
+        padding-top: 28px;
+    }
+    .btn.btn-default.read_more.option_read {
+        top: 1974px;
+    }
+    .spotlight-section {
+        margin-top: 56px;
+    }
+    h2.vertical_text.spotlight_ver_text {
+        margin-top: 4px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .read_more.geo_read {
+        top: 1429px;
+    }
+    .read_more.ener_read {
+        top: 1339px;
+    }
+    .technology {
+        margin-top: 10px !important;
+    }
+    .read_more.tech_read {
+        top: 1661px;
+    }
+    .btn.btn-default.read_more.consumer_read {
+        top: 1449px;
+    }
+    .btn.btn-default.read_more.fan_read {
+        top: 1757px;
+    }
+    .unicorn_read_more {
+        top: 993px;
+    }
+    .btn.btn-default.read_more.option_read {
+        top: 2028px;
+    }
+}

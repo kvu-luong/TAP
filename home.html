@@ -11,50 +11,55 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-    <link rel="stylesheet" href="./css/custom.css" media="all" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" />
 
     <link rel="stylesheet" href="https://addtocalendar.com/atc/1.5/atc-style-blue.css" media="all" />
-
+    <!--Fonts for page -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="css/font-family.css" rel="stylesheet">
     <!-- usef -->
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
 
     <link rel="stylesheet" href="css/style.css">
-    <link href="css/usef.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css" media="all" />
+    <link href="css/useful.css" rel="stylesheet">
 
-    <!--top info auto run -->
 
     <!-- format for multiple browser -->
     <link rel="stylesheet" href="css/normalize.css">
+    <!--Plugins css-->
+    <link href="css/slick.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
 
 </head>
 
 <body>
-    <div class="container">
-        <!--ADs top-->
-        <div class="row ads-top">
-            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-                <img src="./img/ads.png" alt="ads" />
+    <div class="white-container">
+        <div class="container">
+            <!--ADs top-->
+            <div class="row row-custom ads-top">
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <img src="./img/ads.png" alt="ads" />
+                </div>
             </div>
         </div>
-
     </div>
     <!--End ADs top-->
     <!-- Top Info -->
     <section class="top-info">
         <div class="">
-            <div id="wrapper-ticker" style="padding:0px; margin:0px; border: 0px solid black;">
+            <div id="wrapper-ticker">
 
                 <div class="modern-ticker mt-scroll">
-                    <div class="mt-news" style="width: 100%;">
-                        <ul style="margin-left: 0px;">
-
+                    <div class="mt-news">
+                        <ul>
                             <li class="tickerCell">
                                 <a href="#">USD/MYR
                                     <strong>4.045</strong>
@@ -175,28 +180,29 @@
                 </div>
             </div>
             <!-- container -->
+        </div>
     </section>
     <!-- / Top Info -->
     <div id="toolbar">
         <nav class="toolbar">
             <div class="toolbar-inner">
                 <div class="container">
-                    <div class="row">
+                    <div class="row row-custom">
                         <div class="col-md-10 text-center">
-                            <div class="row header_title ">
+                            <div class="row row-custom header_title ">
                                 <div class="col-md-6 col-md-push-4 main_title">
                                     <img src="img/TAP_MASTHEAD.svg" class="img-responsive" alt="the_asian_post">
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row row-custom">
                                 <div class="col-md-6 col-md-push-4">
                                     <p class="main_date">Wednesday 18 July 2018</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-pull-1 col-md-2 main_weather">
+                        <div class="col-sm-12 col-lg-pull-1 col-md-2 main_weather">
                             <img src="img/clound.png" class="cloud" alt="weather">
-                            <span class="temperature">30&deg C</span>
+                            <span class="temperature">30&deg; C</span>
                         </div>
                     </div>
                     <!-- row -->
@@ -208,10 +214,10 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
                     aria-expanded="false">
                     <i class="fa fa-bars" aria-hidden="true"></i>
-                    <!--<span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>-->
+                    <span class="icon-bar"></span>
                 </button>
                 <div class="sub-search pull-left">
                     <div class="search-block">
@@ -229,48 +235,43 @@
                             <nav class="navbar main-nav-wrap navbar-static-top">
                                 <div class="container">
                                     <!-- Brand and toggle get grouped for better mobile display -->
-
-
                                     <!-- Collect the nav links, forms, and other content for toggling -->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                         <div>
-
-
                                             <ul class="nav navbar-nav primary-menu usef_menu">
-
-                                                <li class="menu-item">
-                                                    <a href="/" data-drupal-link-system-path="<front>" class="is-active btn_home">Home</a>
+                                                <li class="menu-item usef_menu_custom">
+                                                    <a href="/" data-drupal-link-system-path="<front>" class="is-active btn_home menu_custom">Home</a>
                                                 </li>
 
                                                 <li class="menu-item">
-                                                    <a href="/geopolitics" data-drupal-link-system-path="taxonomy/term/5">Geopolitics</a>
+                                                    <a href="/geopolitics" data-drupal-link-system-path="taxonomy/term/5" class="menu_custom">Geopolitics</a>
                                                 </li>
 
                                                 <li class="menu-item">
                                                     <a href="/markets" title="Markets
-                                                     " data-drupal-link-system-path="taxonomy/term/8">Markets</a>
+                                                     " data-drupal-link-system-path="taxonomy/term/8" class="menu_custom">Markets</a>
                                                 </li>
 
                                                 <li class="menu-item menu-item--collapsed">
                                                     <a href="/energy" title="Energy
-                                                     " data-drupal-link-system-path="taxonomy/term/6">Energy & Environment</a>
+                                                     " data-drupal-link-system-path="taxonomy/term/6" class="menu_custom">Energy & Environment</a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="/technology" title="Technology
-                                                     " data-drupal-link-system-path="taxonomy/term/9">Technology</a>
+                                                     " data-drupal-link-system-path="taxonomy/term/9" class="menu_custom">Technology</a>
                                                 </li>
 
                                                 <li class="menu-item">
                                                     <a href="/consumer-trend" title="Consumer Trend
-                                                    " data-drupal-link-system-path="taxonomy/term/10">Consumer Trend</a>
+                                                    " data-drupal-link-system-path="taxonomy/term/10" class="menu_custom">Consumer Trend</a>
                                                 </li>
 
                                                 <li class="menu-item menu-item--collapsed">
-                                                    <a href="/opinion" data-drupal-link-system-path="taxonomy/term/3">Opinion</a>
+                                                    <a href="/opinion" data-drupal-link-system-path="taxonomy/term/3" class="menu_custom">Opinion</a>
                                                 </li>
 
                                                 <li class="menu-item">
-                                                    <a href="/events" data-drupal-link-system-path="events">Event</a>
+                                                    <a href="/events" data-drupal-link-system-path="events" class="menu_custom">Event</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -291,9 +292,9 @@
         <!--Search and social network-->
         <section class="search-and-social">
             <div class="container">
-                <div class="row">
+                <div class="row row-custom">
                     <!--Search-->
-                    <div class="col-md-6 col-xs-12 search-wrap">
+                    <div class="col-xs-2 col-md-6 col-sm-6 search-wrap">
                         <a href="/">
                             <i class="fa fa-search search-icon" aria-hidden="true"></i>
                             <input type="text" class="search-text-custom" placeholder="Search..." />
@@ -301,7 +302,7 @@
                     </div>
                     <!-- End Search-->
                     <!--Social media-->
-                    <div class="col-md-6 col-xs-12">
+                    <div class="col-xs-10 col-md-6 col-sm-6">
                         <ul class="inline horizontal pull-right social-list">
                             <li>
                                 <a href="http://www.linkedin.com/company/the-asean-post">
@@ -350,31 +351,33 @@
     </div>
     <!--End toolbar-->
     <!--Category list-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12 category-list ">
-                <ul class="pull-right">
-                    <li>
-                        <a href="#">
-                            Belt & Road
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Unicorns
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Opinion
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Spotlight
-                        </a>
-                    </li>
-                </ul>
+    <div class="white_container">
+        <div class="container">
+            <div class="row row-custom">
+                <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12 category-list ">
+                    <ul class="pull-right">
+                        <li>
+                            <a href="#">
+                                Belt & Road
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Unicorns
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Opinion
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Spotlight
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -382,28 +385,278 @@
 
     <!--Begin Main Content-->
     <main id="master" class="master">
-        <!-- start geopolitics -->
-        <div class="geopolitics">
-            <div class="container">
-                <div class="row flex-row geo_img_top">
-                    <img src="./img/geopolitics.PNG" alt="" class="geo_img">
+        <div class="white_container usef_object">
+
+            <!-- start lastest -->
+            <div class="lastest">
+                <div class="container">
+                    <div class="row row-custom equal_col spotlight_above">
+                        <div class="col-md-1 spot_block1 col-sm-12 col-xs-12">
+                            <h2 class="vertical_text">Latest</h2>
+                        </div>
+                        <div class="col-md-7 spot_block2 col-xs-12 col-sm-12">
+                            <div class="row row-custom">
+                                <div class="latest_news-zone">
+                                    <div class="view-content">
+                                        <div class="views-row">
+                                            <div class="article-style-slider">
+                                                <div class="thumbnail-holder">
+                                                    <a class="figure2" href="/article/harley-trump-and-thailands-big-trade-gamble">
+
+                                                        <img src="img/Asset_1.png" alt="" typeof="foaf:Image" class="image-style-home-style-latest-news" />
+                                                    </a>
+                                                </div>
+
+                                                <div class="info-holder">
+                                                    <a href="/article/harley-trump-and-thailands-big-trade-gamble" class="title-link">
+                                                        <h2 class="post-title title-desc title-sumary">Harley, Trump and Thailand’s Big Trade Gamble</h2>
+                                                    </a>
+                                                    <span class="post-time">
+                                                        17 July 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="views-row">
+                                            <div class="article-style-slider">
+                                                <div class="thumbnail-holder">
+                                                    <a class="figure2" href="/article/fossil-fuel-doublespeak-0">
+
+                                                        <img src="img/img9.jpg" alt="" typeof="foaf:Image" class="image-style-home-style-latest-news" />
+                                                    </a>
+                                                </div>
+
+                                                <div class="info-holder">
+                                                    <a href="/article/fossil-fuel-doublespeak-0" class="title-link">
+                                                        <h2 class="post-title title-desc title-sumary">Fossil-fuel doublespeak</h2>
+                                                    </a>
+                                                    <span class="post-time">
+                                                        17 July 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="views-row">
+                                            <div class="article-style-slider">
+                                                <div class="thumbnail-holder">
+                                                    <a class="figure2" href="/article/trade-war-will-asean-be-next-1">
+
+                                                        <img src="img/img3.jpg" alt="" typeof="foaf:Image" class="image-style-home-style-latest-news" />
+                                                    </a>
+                                                </div>
+
+                                                <div class="info-holder">
+                                                    <a href="/article/trade-war-will-asean-be-next-1" class="title-link">
+                                                        <h2 class="post-title title-desc title-sumary">Trade war: Will ASEAN be next?</h2>
+                                                    </a>
+                                                    <span class="post-time">
+                                                        16 July 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="views-row">
+                                            <div class="article-style-slider">
+                                                <div class="thumbnail-holder">
+                                                    <a class="figure2" href="/article/duterte-remains-resolute-despite-low-approval-ratings">
+
+                                                        <img src="img/Asset_2.png" alt="" typeof="foaf:Image" class="image-style-home-style-latest-news" />
+
+
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="info-holder">
+                                                    <a href="/article/duterte-remains-resolute-despite-low-approval-ratings" class="title-link">
+                                                        <h2 class="post-title title-desc title-sumary">Duterte remains resolute despite low approval ratings </h2>
+                                                    </a>
+                                                    <span class="post-time">
+                                                        16 July 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="views-row">
+                                            <div class="article-style-slider">
+                                                <div class="thumbnail-holder">
+                                                    <a class="figure2" href="/article/southeast-asias-growth-could-be-trade-wars-next-casualty">
+
+                                                        <img src="img/Asset_2.png" alt="" typeof="foaf:Image" class="image-style-home-style-latest-news" />
+
+
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="info-holder">
+                                                    <a href="/article/southeast-asias-growth-could-be-trade-wars-next-casualty" class="title-link">
+                                                        <h2 class="post-title title-desc title-sumary">Southeast Asia&#039;s growth could be trade war&#039;s next casualty</h2>
+                                                    </a>
+                                                    <span class="post-time">
+                                                        16 July 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="row row-custom">
+                                <div class="col-md-8 spot_news_below text-right">
+                                    <div class="row row-custom spot_context_below">
+                                        <a href="#">
+                                            <h4>ASEAN -Italy partnership continues..</h4>
+                                        </a>
+                                        <p class="content-limitation last_limit ">Lorem ipsum dolor sit amet, consetetur adipiscing elit, sed do eiusmod..
+                                        </p>
+                                    </div>
+                                    <div class="row row-custom spot_context_below">
+                                        <a href="#">
+                                            <h4 class="red_color"> Indonesia decision guide: Anti-inflation..</h4>
+                                        </a>
+                                        <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consetetur adipiscing elit, sed do eiusmod..</p>
+                                    </div>
+                                    <div class="row row-custom spot_context_below">
+                                        <a href="#">
+                                            <h4>Indonesia decision guide: Anti-inflation...</h4>
+                                        </a>
+                                        <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consetetur adipiscing elit, sed do eiusmod..</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 col-xs-12 spot_news_below_right">
+                                    <div class="row row-custom">
+                                        <div class="col-md-12 spot_image">
+                                            <img src="./img/latest_3.svg" alt="spot">
+                                        </div>
+                                    </div>
+                                    <div class="row row-custom">
+                                        <div class="col-md-12 spot_image">
+                                            <img src="./img/latest_4.svg" alt="spot">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-xs-12 col-sm-12 spot_block3">
+                            <div class="upper_spot_new">
+                                <img src="./img/Asset_2.png" alt="spot">
+                                <div class="col-md-10 col-md-push-1 no_padding_left">
+                                    <a href="#">
+                                        <h4>Energy storage in Southeast Asia</h4>
+                                    </a>
+                                    <p class="content-limitation last_limit_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                </div>
+                            </div>
+                            <div class="bottom_spot_new">
+                                <div class="row row-custom  bottom_spot_info">
+                                    <div class="col-md-10 col-md-push-1 no_padding_left spot_text_info above">
+                                        <a href="#">
+                                            <h5>Energy storage in Southeast Asia..</h5>
+                                        </a>
+                                        <p class="content-limitation last_limit_2">Lorem ipsum dolor sit amet, consetetur adipiscing elit, sed do eiusmod..</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-custom  bottom_spot_info">
+                                <div class="col-md-10 col-md-push-1 no_padding_left spot_text_info">
+                                    <a href="#">
+                                        <h5 class="red_color">Healthcare costs in the region</h5>
+                                    </a>
+                                    <p class="content-limitation last_limit_2">Lorem ipsum dolor sit amet, consetetur adipiscing elit, sed do eiusmod..</p>
+                                </div>
+                            </div>
+                            <h4 class="text-right latest-spotlight">Spotlight</h4>
+                        </div>
+                    </div>
+                    <div class="row row-custom spotlight_below equal_col">
+
+                        <div class="carousel-spotlight-latest">
+
+                            <div class="col-sm-12 col-md-8 col-md-push-1 spotlight">
+                                <a href="#">
+                                    <h4>Healthcare costs in the region on the rise</h4>
+                                </a>
+                                <p class="content-limitation last_limit_3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="col-sm-12 col-md-3 col-md-push-1 spotlight_img">
+
+                                <img src="./img/img9.jpg" alt="spotlight">
+                            </div>
+                        </div>
+                        <div class="carousel-spotlight-latest">
+                            <div class="col-md-8 col-md-push-1 spotlight">
+                                <a href="#">
+                                    <h4>Health costs in the region on the rise</h4>
+                                </a>
+                                <p class="content-limitation last_limit_3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="col-md-3 col-md-push-1 spotlight_img">
+
+                                <img src="./img/img9.jpg" alt="spotlight">
+                            </div>
+                        </div>
+                        <div class="carousel-spotlight-latest">
+                            <div class="col-md-8 col-md-push-1 spotlight">
+                                <a href="#">
+                                    <h4>Healthcare costs in the region on the rise</h4>
+                                </a>
+                                <p class="content-limitation last_limit_3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="col-md-3 col-md-push-1 spotlight_img">
+
+                                <img src="./img/img9.jpg" alt="spotlight">
+                            </div>
+                        </div>
+                        <div class="carousel-spotlight-latest">
+                            <div class="col-md-8 col-md-push-1 spotlight">
+                                <a href="#">
+                                    <h4>Healthcare costs in the region on the rise</h4>
+                                </a>
+                                <p class="content-limitation last_limit_3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="col-md-3 col-md-push-1 spotlight_img">
+
+                                <img src="./img/img9.jpg" alt="spotlight">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row  equal_col">
-                    <div class="col-md-1 geo_block1 ">
-                        <h2 class="vertical_text">Geopolitics</h2>
-                        <button class="btn btn-default read_more">Read more +</button>
+            <!-- end lastest -->
+            <!-- object animation -->
+            <div class="box_animation" id="object_box">
+                <div class="yellow"></div>
+                <div class="orange"></div>
+            </div>
+            <!-- end object animation -->
+            <!-- start geopolitics -->
+            <div class="geopolitics container">
+
+                <div class="row row-custom flex-row geo_img_top">
+                    <img src="./img/geopolitics.PNG" alt="" class="geo_img">
+                </div>
+
+                <div class="row row-custom  equal_col">
+                    <div class="col-sm-1 col-md-1 geo_block1 ">
+                        <h2 class="vertical_text ver_geo">Geopolitics</h2>
+                        <button class="btn btn-default read_more geo_read">Read more +</button>
                     </div>
-                    <div class="col-md-8 geo_block2">
-                        <div class="row ">
+                    <div class="col-sm-11 col-md-8 geo_block2">
+                        <div class="row row-custom ">
                             <!-- <img src="./img/img2.jpg" alt="" class="geo_img_2"> -->
                             <div class="geo_text">
-                                <div class="geo_content">
-                                    <img src="./img/img2.jpg" alt="geo" class="geo_img_2">
+                                <div class="geo_content text-right">
+                                    <img src="./img/geo_1.svg" alt="geo" class="geo_img_2">
                                     <div class="geo_context text-right">
-                                        <p class="geo_content_title">Budget travel Austria</p>
-                                        <p>Lorem ipsum dolor sit amet, consecteturer adipicsing elit, sed at Lorem ipsum dolor
+                                        <a href="#">
+                                            <p class="geo_content_title">Budget travel Austria</p>
+                                        </a>
+                                        <p class="content-limitation geo_limit">Lorem ipsum dolor sit amet, consecteturer adipicsing elit, sed at Lorem ipsum dolor
                                             sit amet...
                                         </p>
                                     </div>
@@ -411,296 +664,842 @@
                             </div>
 
                         </div>
-                        <div class="row geo_new text-right">
+                        <div class="row row-custom geo_new text-right">
                             <div class="col-md-9 geo_new_up">
-                                <h3 class="green_text">ASEAN-Italy partnership contines...</h3>
-                                <i>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</i>
+                                <a href="#">
+                                    <h3 class="green_text">ASEAN-Italy partnership contines...</h3>
+                                </a>
+                                <i>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                                </i>
                             </div>
                             <div class="col-md-3 geo_new_down">
                                 <img src="./img/img3.jpg" alt="" class="geo_img_3">
                             </div>
                         </div>
                         <hr class="border_bot">
-                        <div class="row geo_new text-right">
+                        <div class="row row-custom geo_new text-right">
                             <div class="col-md-9  geo_new_up">
-                                <h3 class="geo_red_text">Indonesia decision guid: Anti-inflation.....</h3>
-                                <i>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</i>
+                                <a href="#">
+                                    <h3 class="geo_red_text">Indonesia decision guid: Anti-inflation.....</h3>
+                                </a>
+                                <i>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                                </i>
                             </div>
                             <div class="col-md-3 geo_new_down">
                                 <img src="./img/img3.jpg" alt="" class="geo_img_4">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 geo_block3">
+                    <div class="col-sm-11 col-sm-push-1 col-md-push-0 col-md-3 geo_block3">
                         <img src="./img/img4.jpg" alt="" class="geo_img_5">
                         <div class="geo_block3_news_background">
-                            <h3>Energy storage in Southeast Asia</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                            <a href="#">
+                                <h3>Energy storage in Southeast Asia</h3>
+                            </a>
+                            <p class="content-limitation geo_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
                         </div>
                         <div class="geo_block3_news_background_below">
-                            <h3 class="geo_red_text">Healthcare costs in the region...</h3>
-                            <i>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</i>
+                            <a href="#">
+                                <h3 class="geo_red_text">Healthcare costs in the region...</h3>
+                            </a>
+                            <i>
+                                <p class="content-limitation geo_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                            </i>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
-        <!-- end geopolitics -->
-        <!-- start maket -->
-        <div class="markets">
-            <div class="container">
-                <div class="row equal_col">
-                    <div class="col-md-1 market_block1">
+            <!-- end geopolitics -->
+            <!-- start maket -->
+            <div class="markets container">
+
+                <div class="row row-custom equal_col">
+                    <div class="col-sm-1 col-md-1 market_block1">
                         <h2 class="vertical_text ver_market_text">Markets</h2>
-                        <div class="btn btn-default read_more">Read more +</div>
+                        <div class="btn btn-default read_more market_read">Read more +</div>
                     </div>
-                    <div class="col-md-5 market_blook2">
+                    <div class="col-sm-11 col-md-5 market_blook2">
                         <img src="./img/img5.jpg" alt="" class="img-responsive">
                         <div class="market-text">
-                            <h3>China, Japan vow cooperation to get North Korean to quit nukes</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+                            <a href="#">
+                                <h3>China, Japan vow cooperation to get North Korean to quit nukes</h3>
+                            </a>
+                            <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
                         </div>
                     </div>
-                    <div class="col-md-6 market_blook3">
-                        <div class="row market_img_right">
-                            <div class="col-md-8">
+                    <div class="col-sm-11 col-sm-push-1 col-md-push-0 col-md-6 market_blook3">
+                        <div class="row row-custom market_img_right">
+                            <div class="col-sm-12 col-md-8 sm_full_image">
                                 <img src="./img/img7.jpg" alt="">
                             </div>
                             <div class="col-md-4 market_new_right">
-                                <h3>ASEAN-Italy..</h3>
-                                <p>Lorem ipsum dolor sit amet..</p>
+                                <a href="#">
+                                    <h3>ASEAN-Italy..</h3>
+                                </a>
+                                <p class="content-limitation market_limit">Lorem ipsum dolor sit amet..</p>
                             </div>
                         </div>
-                        <div class="row market_img_right">
-                            <div class="col-md-8">
+                        <div class="row row-custom market_img_right">
+                            <div class="col-sm-12 col-md-8 sm_full_image">
                                 <img src="./img/img8.jpg" alt="">
                             </div>
                             <div class="col-md-4 market_new_right">
-                                <h3>Lessons from Xi..</h3>
-                                <p>Lorem ipsum dolor sit amet..</p>
+                                <a href="#">
+                                    <h3>Lessons from Xi..</h3>
+                                </a>
+                                <p class="content-limitation market_limit">Lorem ipsum dolor sit amet..</p>
                             </div>
                         </div>
-                        <div class="row market_news">
+                        <div class="row row-custom market_news">
                             <div class="market_news_top">
-                                <h4>How Facebook can influence a nation massive project needs</h4>
-                                <i>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod..</i>
+                                <a href="#">
+                                    <h4>How Facebook can influence a nation massive project needs</h4>
+                                </a>
+                                <i>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod..</p>
+                                </i>
                             </div>
                             <div class="market_news_top">
-                                <h4>How Facebook can influence a nation massive project needs</h4>
-                                <i>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod..</i>
+                                <a href="#">
+                                    <h4>How Facebook can influence a nation massive project needs</h4>
+                                </a>
+                                <i>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod..</p>
+                                </i>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- end maket -->
-        <!-- start Energy & Enviroment -->
-        <div class="energy">
-            <div class="row energy_img_top">
-                <div class="container">
-                    <img src="./img/technology.PNG" alt="" class="energy_img">
-                </div>
-            </div>
-            <div class="container">
-                <div class="row energy_news equal_col">
 
-                    <div class="col-md-1 energy_block1">
+            </div>
+            <!-- end maket -->
+            <!-- start Energy & Enviroment -->
+            <div class="energy container">
+                <div class="row row-custom energy_img_top">
+
+
+                    <img src="./img/technology.PNG" alt="" class="energy_img">
+
+                </div>
+
+                <div class="row row-custom energy_news equal_col">
+                    <div class="col-md-1 col-sm-12 col-xs-12 energy_block1">
+
                         <h2 class="vertical_text ver_energy_text">Energy
                             <b class="space">&</b> Environment</h2>
-                        <div class="btn btn-default read_more">Read more +</div>
+                        <div class="btn btn-default read_more ener_read">Read more +</div>
                     </div>
-                    <div class="col-md-11 energy_block2">
-                        <div class="row">
-                            <div class="col-md-3 energy_new_right">
+
+                    <div class="col-md-11 col-xs-12 col-sm-12 energy_block2">
+                        <div class="row row-custom">
+                            <div class="col-md-3 col-xs-12 col-sm-12 energy_new_right">
                                 <img src="./img/img9.jpg" alt="" class="img-responsive">
                                 <div class="gray_background ">
-                                    <h4 class="ener_title">Indonesia's geothermal..</h4>
-                                    <p>lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
+                                    <a href="#">
+                                        <h4 class="ener_title">Indonesia's geothermal..</h4>
+                                    </a>
+                                    <p class="content-limitation market_limit">lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3 energy_new_right">
+                            <div class="col-md-3 col-xs-12 col-sm-12  energy_new_right">
                                 <img src="./img/img9.jpg" alt="" class="img-responsive">
                                 <div class="gray_background ">
-                                    <h4 class="ener_title">Indonesia's geothermal..</h4>
-                                    <p>lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
+                                    <a href="#">
+                                        <h4 class="ener_title">Indonesia's geothermal..</h4>
+                                    </a>
+                                    <p class="content-limitation market_limit">lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3 energy_new_right">
+                            <div class="col-md-3 col-xs-12 col-sm-12  energy_new_right">
                                 <img src="./img/img9.jpg" alt="" class="img-responsive">
                                 <div class="gray_background">
-                                    <h4 class="ener_title">Going electric in Southeast Asia..</h4>
-                                    <p>lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
+                                    <a href="#">
+                                        <h4 class="ener_title">Going electric in Southeast Asia..</h4>
+                                    </a>
+                                    <p class="content-limitation market_limit">lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3 energy_new_right">
+                            <div class="col-md-3  col-xs-12 col-sm-12  energy_new_right">
                                 <img src="./img/img9.jpg" alt="" class="img-responsive">
                                 <div class="gray_background">
-                                    <h4 class="ener_title">Towards a new ara in energy..</h4>
-                                    <p>lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
+                                    <a href="#">
+                                        <h4 class="ener_title">Towards a new ara in energy..</h4>
+                                    </a>
+                                    <p class="content-limitation market_limit">lerom ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- end Enrgy & Enviroment -->
+            <!-- end Enrgy & Enviroment -->
 
-        <!-- start technology -->
-        <div class="technology">
-            <div class="container">
-                <div class="row equal_col">
+            <!-- start technology -->
+            <div class="technology container">
 
-                    <div class="col-md-1 technology_block1">
+                <div class="row row-custom equal_col">
+
+
+                    <div class="col-md-1 col-xs-12 col-sm-12 technology_block1">
                         <h2 class="vertical_text">Technology</h2>
-                        <div class="btn btn-default read_more">Read more +</div>
+                        <div class="btn btn-default read_more tech_read">Read more +</div>
                     </div>
-                    <div class="col-md-4 technology_block2">
+                    <div class="col-md-4 col-xs-12 col-sm-12 technology_block2">
                         <img src="./img/img2.jpg" alt="" class="img-responsive">
                         <div class="gray_background tech1">
-                            <h3>China, Japan vow cooperation to get North Korean to quit nukes</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit amet Lorem
+                            <a href="#">
+                                <h3>China, Japan vow cooperation to get North Korean to quit nukes</h3>
+                            </a>
+                            <p class="content-limitation tech_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit amet Lorem
                                 ipsum Lorem ipsum dolor sit amet, consecteturer adipiscing elit, sed at Lorem ipsum dolor
                                 sit amet Lorem ipsum...
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-7 technology_block3">
+                    <div class="col-sm-11 col-sm-push-1 col-md-push-0 col-md-7 technology_block3">
+
                         <div class="border_bottom">
-                            <div class="row tech_new_right">
+                            <div class="row row-custom tech_new_right">
                                 <div class="col-md-4 tech_no_padding">
                                     <img src="./img/img2.jpg" alt="" class="img-responsive">
                                 </div>
                                 <div class="col-md-8">
-                                    <h4>Indonesia decision guide: Anti-inflation..</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                    <a href="#">
+                                        <h4>Indonesia decision guide: Anti-inflation..</h4>
+                                    </a>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                 </div>
                             </div>
                         </div>
                         <div class="border_bottom">
-                            <div class="row tech_new_right">
+                            <div class="row row-custom tech_new_right">
                                 <div class="col-md-4 tech_no_padding">
                                     <img src="./img/img2.jpg" alt="" class="img-responsive">
                                 </div>
                                 <div class="col-md-8">
-                                    <h4>Indonesia decision guide: Anti-inflation..</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                    <a href="#">
+                                        <h4>Indonesia decision guide: Anti-inflation..</h4>
+                                    </a>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                 </div>
                             </div>
                         </div>
                         <div class="border_bottom">
-                            <div class="row tech_new_right">
+                            <div class="row row-custom tech_new_right">
                                 <div class="col-md-4 tech_no_padding">
                                     <img src="./img/img2.jpg" alt="" class="img-responsive">
                                 </div>
                                 <div class="col-md-8">
-                                    <h4>Indonesia decision guide: Anti-inflation..</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                    <a href="#">
+                                        <h4>Indonesia decision guide: Anti-inflation..</h4>
+                                    </a>
+                                    <p class="content-limitation">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                 </div>
                             </div>
                         </div>
                         <div class="border_bottom">
-                            <div class="row tech_new_right">
+                            <div class="row row-custom tech_new_right">
                                 <div class="col-md-4 tech_no_padding">
                                     <img src="./img/img2.jpg" alt="" class="img-responsive">
                                 </div>
                                 <div class="col-md-8">
-                                    <h4>Indonesia decision guide: Anti-inflation..</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                    <a href="#">
+                                        <h4>Indonesia decision guide: Anti-inflation..</h4>
+                                    </a>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+            </div>
+            <!-- end technology -->
+        </div>
+        <!-- start video  -->
+        <div class="video_wrapper">
+
+            <div class="black_color wrap-border container">
+                <div class="video">
+
+                    <div class="row row-custom equal_col">
+                        <div class="col-md-1 col-xs-12 col-sm-12  video_header_wrap">
+                            <h2 class="vertical_text video_header">Video</h2>
+                        </div>
+                        <div class="col-md-11 col-xs-12 col-sm-12  top_video">
+                            <div class="row row-custom">
+                                <img src="./img/video_top.svg" alt="video1" class="video_image">
+                            </div>
+                            <div class="row row-custom bottom_video">
+                                <div class="col-md-3 col-xs-12 bottom_video_block">
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_img">
+                                        <img src="./img/video_bottom_1.svg" class="resize-slick-image" alt="video2">
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_title">
+                                        <a href="#">
+                                            <h3 class="first-bot-video">Keeping Facebook in Lorem Ipsum Sit Dolor</h3>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-3 col-xs-12 col-sm-12 bottom_video_block">
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_img">
+                                        <img src="./img/video_bottom_2.svg" alt="video3">
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_title">
+                                        <a href="#">
+                                            <h3>Keeping Facebook in Lorem Ipsum Sit Dolor</h3>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-md-3 col-xs-12 col-sm-12  bottom_video_block">
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_img">
+                                        <img src="./img/video_bottom_1.svg" class="resize-slick-image" alt="video2">
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_title">
+                                        <a href="#">
+                                            <h3 class="first-bot-video">Keeping Facebook in Lorem Ipsum Sit Dolor</h3>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-3 col-xs-12 col-sm-12 bottom_video_block">
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_img">
+                                        <img src="./img/video_bottom_2.svg" alt="video3">
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 bottom_video_block_title">
+                                        <a href="#">
+                                            <h3>Keeping Facebook in Lorem Ipsum Sit Dolor</h3>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <!-- end video -->
+        <!-- start belt & road -->
+        <div class="white_container">
+            <div class="beltRoad container">
+                <div class="row">
+                    <img src="./img/belt.png" alt="" class="ads_belt">
+                </div>
+                <div class="row equal_col belt_news ">
+                    <div class="col-xs-12 col-sm-1 col-md-1 belt_block1">
+                        <div class="color_red_title">
+                            <h2 class="vertical_text ver_opinion_text">
+                                <nobr class="belt_red_text">Belt & Road</nobr>
+                            </h2>
+                        </div>
+                        <div class="btn btn-default read_more belt_and_road_read_more">Read more +</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-10 col-md-11 belt_block2">
+                        <img src="./img/belt_and_road_1.svg" alt="map belt">
+                        <div class="belt_content_new col-md-5">
+                            <a href="#">
+                                <h4>Belt and
+                                    <nobr>Road Initiative</nobr>
+                                </h4>
+                            </a>
+                            <p class="content-limitation belt_limit">Lorem ipsum dolor sit amet, consecteturer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                ut laoreet dolore magna aliquam erat volutpat, ut wisi enim ad</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <!-- end technology -->
+        <!-- end belt & road -->
+        <!-- start consumer trends -->
+        <div class="white_container">
+            <div class="comsumer container">
+                <div class="row equal_col">
+                    <div class="col-xs-12 col-sm-1 col-md-1 comsumer_block1">
+                        <h2 class="vertical_text ver_consumer_text">Consumer Trends</h2>
+                        <div class="btn btn-default read_more consumer_read">Read more +</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-push-0 col-md-11 consumer_block2">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-3 consumer_news">
+                                <img src="./img/consumer_1.svg" alt="news">
+                                <a href="#">
+                                    <h4>Supermarket quiches tried..</h4>
+                                </a>
+                                <p class="content-limitation consumer_limit">orem ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet..</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 consumer_news">
+                                <img src="./img/consumer_2.svg" alt="news">
+                                <a href="#">
+                                    <h4>Classic car events calendar: great..</h4>
+                                </a>
+                                <p class="content-limitation consumer_limit">orem ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet..</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 consumer_news">
+                                <img src="./img/consumer_2.svg" alt="news">
+                                <a href="#">
+                                    <h4>How the fashion editors shop the..</h4>
+                                </a>
+                                <p class="content-limitation consumer_limit">orem ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet..</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 consumer_news">
+                                <img src="./img/consumer_4.svg" alt="news">
+                                <a href="#">
+                                    <h4>Discover London's best secret..</h4>
+                                </a>
+                                <p class="content-limitation consumer_limit">orem ipsum dolor sit amet, consectetuer adipiscing consectetuerelit, sed at amet..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ads_consumer">
+                    <div class="col-xs-12 col-sm-12 col-md-12 ">
+                        <img src="./img/univer.PNG" alt="ads consumer">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end consumer trends -->
+        <!-- start fan360 -->
+        <div class="white_container">
+            <div class="fan360 container">
+                <div class="row equal_col">
+                    <div class="col-md-1 col-xs-12 col-sm-12 fan_block1">
+                        <h2 class="ver_fan_text">
+                            <img src="./img/fan_360.svg" alt="">
+                        </h2>
+                        <div class="btn btn-default read_more fan_read">Read more +</div>
+                    </div>
+                    <div class="col-md-5 col-xs-12 col-sm-12  fan_block2">
+                        <img src="./img/img2.jpg" alt="news">
+                        <div class="fan_info_below">
+                            <a href="#">
+                                <h4>FIFA World Cup</h4>
+                            </a>
+                            <p class="content-limitation fan_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit amet Lorem
+                                ipsum Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor
+                                sit amet Lorem ipsum Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem
+                                ipsum dolor sit amet Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-sm-push-1 col-md-push-0 col-md-6 fan_block3">
+
+                        <div class="row fan_info_left">
+                            <div class="col-md-4 col-xs-12 col-sm-12  no_padding_left">
+                                <img src="./img/img2.jpg" alt="news">
+                            </div>
+                            <div class="col-md-8 fan_news_left">
+                                <a href="#">
+                                    <h4>Liverpool lose 3:1</h4>
+                                </a>
+                                <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet</p>
+                            </div>
+                        </div>
+                        <div class="row fan_info_left">
+                            <div class="col-md-4 col-xs-12 col-sm-12 no_padding_left">
+                                <img src="./img/img2.jpg" alt="news">
+                            </div>
+                            <div class="col-md-8 fan_news_left">
+                                <a href="#">
+                                    <h4>Manchester United is the killer..</h4>
+                                </a>
+                                <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet</p>
+                            </div>
+                        </div>
+                        <div class="row fan_info_left">
+                            <div class="col-md-4 col-xs-12 col-sm-12 no_padding_left">
+                                <img src="./img/img2.jpg" alt="news">
+                            </div>
+                            <div class="col-md-8 fan_news_left">
+                                <a href="#">
+                                    <h4>Germany this summer for the team's final pre-season</h4>
+                                </a>
+                                <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet</p>
+                            </div>
+                        </div>
+                        <div class="row fan_info_left">
+                            <div class="col-md-4 col-xs-12 col-sm-12 no_padding_left">
+                                <img src="./img/img2.jpg" alt="news">
+                            </div>
+                            <div class="col-md-8 fan_news_left">
+                                <a href="#">
+                                    <h4>The trip to the Bavarian city follows five games..</h4>
+                                </a>
+                                <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11 col-xs-12 col-sm-12  col-md-push-1 fan_title">
+                        <h1>WORLD'S LARGEST
+                            <span class="red_cl">FOOTBALL FANBASE</span>
+                        </h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end fan360 -->
+
+        <div class="white_container">
+            <!--Start Unicorns-->
+            <div class="unicorns container">
+                <div class="row row-custom equal_col">
+                    <div class="col-sm-1 col-md-1 unicorn-heading">
+                        <h2 class="vertical_text">Unicorns</h2>
+                    </div>
+                    <div class="col-sm-11 uni_block col-md-8 col-xs-12">
+                        <div class="row row-custom">
+                            <div class="geo_text">
+                                <div class="geo_content">
+                                    <img src="./img/img3.jpg" alt="geo" class="unicorn_top_img">
+                                    <div class="unicorn_context text-right">
+                                        <a href="#">
+                                            <p class="unicorn_content_title">Budget travel Austria</p>
+                                        </a>
+                                        <p class="content-limitation">Lorem ipsum dolor sit amet, consecteturer adipicsing elit, sed at Lorem ipsum dolor
+                                            sit amet...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-sm-11 col-sm-push-1 col-md-push-0 col-md-3 geo_block3">
+                        <img src="./img/img4.jpg" alt="" class="geo_img_5">
+                        <div class="unicorn-right-side-block-1">
+                            <a href="#">
+                                <h3 class="pink-text">Energy storage in Southeast Asia...</h3>
+                            </a>
+                            <p class="content-limitation uni_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row row-custom">
+                    <div class="col-sm-1 col-md-1 no-padding-left">
+                        <a class="btn btn-default unicorn_read_more">Read more +</a>
+                    </div>
+                    <div class="col-sm-11 col-md-8">
+                        <div class="row row-custom unicorn_news text-right">
+                            <div class="col-md-9 unicorn_news_down_left">
+                                <a href="#">
+                                    <h3 class="pink-text">Go-jek partnership continues to grow partnership </h3>
+                                </a>
+                                <i>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                                </i>
+                            </div>
+                            <div class="col-md-3 unicorn_news_down_right">
+                                <img src="./img/img3.jpg" alt="" class="geo_img_3">
+                            </div>
+                        </div>
+                        <hr class="horizontal-line">
+                        <div class="row row-custom unicorn_news text-right">
+                            <div class="col-md-9 unicorn_news_down_left">
+                                <a href="#">
+                                    <h3 class="pink-text">Go-jek partnership continues to grow partnership </h3>
+                                </a>
+                                <i>
+                                    <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                                </i>
+                            </div>
+                            <div class="col-md-3 unicorn_news_down_right">
+                                <img src="./img/img3.jpg" alt="" class="geo_img_3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-11 col-sm-push-1 col-md-push-0 col-md-3 col-xs-12">
+                        <div class="row row-custom unicorn-right-side-block-2">
+                            <a href="#">
+                                <h3 class="pink-text">ASEAN-Italy partnership</h3>
+                            </a>
+                            <i>
+                                <p class="content-limitation uni_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                            </i>
+                        </div>
+                        <hr class="horizontal-line-2">
+                        <div class="row row-custom unicorn-right-side-block-3">
+                            <a href="#">
+                                <h3 class="pink-text">Energy storage in Southeast Asia.. </h3>
+                            </a>
+                            <i>
+                                <p class="content-limitation uni_limit">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod...</p>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End unicorns-->
         <!-- start opinion -->
-        <div class="opinion">
-            <div class="row ">
-                <div class="container equal_col">
-                    <div class="col-md-1 opinion_block1">
-                        <h2 class="vertical_text ver_opinion_text">Opinion</h2>
-                        <div class="btn btn-default read_more">Read more +</div>
-                    </div>
-                    <div class="col-md-4 opinion_block2">
-                        <div class="opinion_img">
-                            <img src="./img/img3.jpg" alt="">
-                        </div>
-                        <div class="gray_background opinion_bottom">
-                            <div class="opinion_img_circle">
-                                <img src="./img/img2.jpg" alt="">
+        <div class="white_container">
+
+            <div class="opinion container">
+                <div class="row row-custom ">
+                    <div class="opinion_remove_equal equal_col">
+                        <div class="col-sm-1 col-md-1 opinion_block1">
+                            <div class="row row-custom">
+                                <h2 class="vertical_text ver_opinion_text">Opinion</h2>
                             </div>
-                            <h3 class="opinion_title_left">Why chian won't yield to Trump</h3>
-                            <p class="opinion_title_below">Eijas Afiffin</p>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed a tLorem ipsum dolor sit amet Lorem
-                                ipsum Lorem ipsum dolor sit amet..</p>
+                            <div class="row row-custom">
+                                <a class="btn btn-default read_more option_read">Read more +</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-7 technology_block3">
+                        <div class="col-sm-11 col-md-4 opinion_block2">
+                            <div class="opinion_img">
+                                <img src="./img/img3.jpg" alt="">
+                            </div>
+                            <div class="gray_background opinion_bottom">
+                                <div class="opinion_img_circle">
+                                    <img src="./img/img2.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <h3 class="opinion_title_left">Why chian won't yield to Trump</h3>
+                                </a>
+                                <p class="opinion_title_below">Eijas Afiffin</p>
+                                <p class="content-limitation opi_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed a tLorem ipsum dolor sit amet
+                                    Lorem ipsum Lorem ipsum dolor sit amet..</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-11 col-sm-push-1 col-md-push-0 col-md-7 technology_block3">
                             <div class="border_bottom">
-                                <div class="row tech_new_right">
+                                <div class="row row-custom tech_new_right">
                                     <div class="col-md-4 tech_no_padding option_img">
                                         <img src="./img/img2.jpg" alt="" class="img-responsive">
                                     </div>
                                     <div class="col-md-8">
-                                        <h4>Facebook and the futere of online privacy</h4>
+                                        <a href="#">
+                                            <h4>Facebook and the futere of online privacy</h4>
+                                        </a>
                                         <p class="author_red">Fabian How</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        <p class="content-limitation opi_limit_2"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="border_bottom">
-                                <div class="row tech_new_right">
+                                <div class="row row-custom tech_new_right">
                                     <div class="col-md-4 tech_no_padding option_img">
                                         <img src="./img/img2.jpg" alt="" class="img-responsive">
                                     </div>
                                     <div class="col-md-8">
-                                        <h4>Beyond GDP Growth in China</h4>
+                                        <a href="#">
+                                            <h4>Beyond GDP Growth in China</h4>
+                                        </a>
                                         <p class="author_red">Terence</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        <p class="content-limitation opi_limit_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="border_bottom">
-                                <div class="row tech_new_right">
+                                <div class="row row-custom tech_new_right">
                                     <div class="col-md-4 tech_no_padding option_img">
                                         <img src="./img/img2.jpg" alt="" class="img-responsive">
                                     </div>
                                     <div class="col-md-8">
-                                        <h4>A New Order for the Indo-Pacific</h4>
+                                        <a href="#">
+                                            <h4>A New Order for the Indo-Pacific</h4>
+                                        </a>
                                         <p class="author_red">Yvonne</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        <p class="content-limitation opi_limit_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="border_bottom">
-                                <div class="row tech_new_right">
+                                <div class="row row-custom tech_new_right">
                                     <div class="col-md-4 tech_no_padding option_img">
                                         <img src="./img/img2.jpg" alt="" class="img-responsive">
                                     </div>
                                     <div class="col-md-8">
-                                        <h4>Could the Kim-Trump Summit succeed</h4>
+                                        <a href="#">
+                                            <h4>Could the Kim-Trump Summit succeed</h4>
+                                        </a>
                                         <p class="author_red">Mei K Kuan</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        <p class="content-limitation opi_limit_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- end opinion -->
+        <!--Start spotlight-->
+        <div class="red-wrapping">
+            <div class="container">
+                <div class="spotlight-section">
+                    <div class="row row-custom ">
+                        <div class="container equal_col">
+                            <div class="col-sm-1 col-md-1 spotlight-section_block1">
+                                <div class="row row-custom spotlight-section-heading">
+                                    <h2 class="vertical_text spotlight_ver_text">Spotlight</h2>
+                                </div>
+                                <div class="row row-custom">
+                                    <a class="btn btn-default read_more spotlight_read_more_fix_bottom">Read more +</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-11 col-md-4 spotlight-section_block2">
+                                <div class="opinion_img">
+                                    <img src="./img/img3.jpg" alt="">
+                                </div>
+                                <div class="spotlight_black_background">
+                                    <div class="opinion_img_circle">
+                                        <img src="./img/img2.jpg" alt="">
+                                    </div>
+                                    <a href="#">
+                                        <h3 class="spotlight_title">Why China won't yield to Trump</h3>
+                                    </a>
+
+                                    <p class="content-limitation opinion_text_font spot_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at Lorem ipsum dolor sit
+                                        amet Lorem ipsum Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed at
+                                        Lorem ipsum dolor sit amet Lorem ipsum Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                        elit, sed at Lorem ipsum dolor sit amet Lorem ipsum
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-11 col-sm-push-1 col-md-push-0 col-md-7 spotlight-section_block3">
+                                <div class="border_bottom_white">
+                                    <div class="row row-custom spotlight_right_list">
+                                        <div class="col-md-4 tech_no_padding option_img">
+                                            <img src="./img/img2.jpg" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <a href="#">
+                                                <h4>Facebook and the futere of online privacy</h4>
+                                            </a>
+
+                                            <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border_bottom_white">
+                                    <div class="row row-custom spotlight_right_list">
+                                        <div class="col-md-4 tech_no_padding option_img">
+                                            <img src="./img/img2.jpg" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <a href="#">
+                                                <h4>Beyond GDP Growth in China</h4>
+                                            </a>
+
+                                            <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border_bottom_white">
+                                    <div class="row row-custom spotlight_right_list">
+                                        <div class="col-md-4 tech_no_padding option_img">
+                                            <img src="./img/img2.jpg" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <a href="#">
+                                                <h4>A New Order for the Indo-Pacific</h4>
+                                            </a>
+
+                                            <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border_bottom_white">
+                                    <div class="row row-custom spotlight_right_list">
+                                        <div class="col-md-4 tech_no_padding option_img">
+                                            <img src="./img/img2.jpg" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <a href="#">
+                                                <h4>Could the Kim-Trump Summit succeed</h4>
+                                            </a>
+
+                                            <p class="content-limitation last_limit">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, amet..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End spotlight-->
+        <!--Start events-->
+        <div class="grey-container">
+            <div class="container">
+                <div class="events-section equal_col">
+                    <div class="col-sm-1 col-md-1 event_title">
+                        <h2 class="vertical_text">Events</h2>
+                    </div>
+                    <div class="col-sm-11 col-md-11 col-xs-12">
+                        <div class="row row-custom equal_col">
+                            <div class="col-md-3 col-xs-12 event-block">
+                                <img src="./img/events_3.svg" alt="img" />
+                                <div class="event-info longer-wrap">
+                                    <a href="#">
+                                        <h4>32nd ASEAN Summit</h4>
+                                    </a>
+                                    <time>08:00 (25 April 2018) - 18:00 (28 April 2018) </time>
+                                    <p class="event-place">Shangri-La Hotel, Singapore</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-xs-12 event-block">
+                                <img src="./img/events_3.svg" alt="img" />
+                                <div class="event-info">
+                                    <a href="#">
+                                        <h4>4th International Sustainable Energy Summit (ISES) 2018</h4>
+                                    </a>
+                                    <time>08:30 (10 April 2018) - 17:30 (11 April 2018) </time>
+                                    <p class="event-place"> Pullman Hotels and Resorts, Kuching, Sarawak</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-xs-12 event-block ">
+                                <img src="./img/events_3.svg" alt="img" />
+                                <div class="event-info longer-wrap-2">
+                                    <a href="#">
+                                        <h4>ASEAN-EU Business Summit 2018</h4>
+                                    </a>
+                                    <time>08:00 (2 March 2018) - 18:30 (2 March 2018)</time>
+                                    <p class="event-place">The Grand Hyatt Singapore/p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End events-->
+
     </main>
+
 
 
     <!--FOOTER-->
     <div class="extra-zone">
-        <div class="container">
-            <div class="white-container">
+        <div class="white_container">
+            <div class="container">
+
                 <div class="footer-widgets ">
-                    <div class="row mb-40">
+                    <div class="row row-custom mb-40">
                         <div class="col-md-6">
                             <a href="/" class="footer-logo">
                                 <svg class="tap-logo" role="img" aria-label="The Asean Post">
@@ -921,57 +1720,60 @@
 
                 </div>
                 <!-- footer-widgets -->
+
+                <!-- white-container -->
             </div>
-            <!-- white-container -->
+            <!-- container -->
         </div>
-        <!-- container -->
     </div>
     <div id="footer">
-        <footer class="footer">
-            <section class="footer-inner">
-                <div class="container">
-                    <div class="white-container">
-                        <div class="row-footer clearfix">
-                            <div class="copyright">
-                                <span class="copyright-statement">
-                                    Digital Media Nusantara @ 2017 All Rights Reserved
-                                </span>
-                                <ul class="footer-nav privacy-policy">
-                                    <li>
-                                        <a href="/terms">Terms of Service</a>
-                                    </li>
-                                    <li>
-                                        <a href="/privacy-policy">Privacy Policy</a>
-                                    </li>
-                                </ul>
+        <div class="white_container">
+            <footer class="footer">
+                <section class="footer-inner">
+                    <div class="container">
+                        <div class="white-container">
+                            <div class="row row-custom clearfix">
+                                <div class="copyright">
+                                    <span class="copyright-statement">
+                                        Digital Media Nusantara @ 2017 All Rights Reserved
+                                    </span>
+                                    <ul class="footer-nav privacy-policy">
+                                        <li>
+                                            <a href="/terms">Terms of Service</a>
+                                        </li>
+                                        <li>
+                                            <a href="/privacy-policy">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- copyright -->
+                                <div class="credit">
+                                    <ul class="footer-nav">
+                                        <li>
+                                            <a href="/about-us">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="/advertise">Advertise with Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="/careers">Careers</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- credit -->
                             </div>
-                            <!-- copyright -->
-                            <div class="credit">
-                                <ul class="footer-nav">
-                                    <li>
-                                        <a href="/about-us">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="/advertise">Advertise with Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="/careers">Careers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/contact">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- credit -->
+                            <!-- row -->
                         </div>
-                        <!-- row -->
+                        <!-- white-container -->
                     </div>
-                    <!-- white-container -->
-                </div>
-                <!-- container -->
-            </section>
-            <!-- / footer-inner -->
-        </footer>
+                    <!-- container -->
+                </section>
+                <!-- / footer-inner -->
+            </footer>
+        </div>
         <!-- / footer -->
     </div>
 
@@ -985,8 +1787,9 @@
     <script src="js/jquery.easing.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/usef.js"></script>
+    <script src="js/useful.js"></script>
     <script src="js/style.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

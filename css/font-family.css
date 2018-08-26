@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'HelveticaNeueLTProThEx';
+    src: url('../fonts/HelveticaNeueLTProThEx.eot');
+    src: url('../fonts/HelveticaNeueLTProThEx.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTProThEx.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueLTProThEx.woff') format('woff'),
+         url('../fonts/HelveticaNeueLTProThEx.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueLTProThEx.svg#HelveticaNeueLTProThEx') format('svg');
+}
+
+@font-face {
+    font-family: 'MontserratUltraLight';
+    src: url('../fonts/MontserratUltraLight.eot');
+    src: url('../fonts/MontserratUltraLight.eot') format('embedded-opentype'),
+         url('../fonts/MontserratUltraLight.woff2') format('woff2'),
+         url('../fonts/MontserratUltraLight.woff') format('woff'),
+         url('../fonts/MontserratUltraLight.ttf') format('truetype'),
+         url('../fonts/MontserratUltraLight.svg#MontserratUltraLight') format('svg');
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../fonts/MontserratBold.eot');
+    src: url('../fonts/MontserratBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratBold.woff2') format('woff2'),
+         url('../fonts/MontserratBold.woff') format('woff'),
+         url('../fonts/MontserratBold.ttf') format('truetype'),
+         url('../fonts/MontserratBold.svg#MontserratBold') format('svg');
+}
